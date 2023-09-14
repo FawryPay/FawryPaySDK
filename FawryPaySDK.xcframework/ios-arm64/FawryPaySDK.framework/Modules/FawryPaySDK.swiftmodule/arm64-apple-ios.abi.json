@@ -4620,6 +4620,57 @@
             "moduleName": "FawryPaySDK",
             "implicit": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "FawryPaySDK.NetworkError",
+                "usr": "s:11FawryPaySDK12NetworkErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK12NetworkErrorO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FawryPaySDK12NetworkErrorO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FawryPaySDK12NetworkErrorO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FawryPaySDK12NetworkErrorO6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -4657,6 +4708,20 @@
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
             "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           },
           {
             "kind": "Conformance",
@@ -19461,6 +19526,60 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FawryError",
+                "printedName": "FawryPaySDK.FawryError",
+                "usr": "c:@M@FawryPaySDK@objc(cs)FawryError"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK0A5ErrorC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FawryPaySDK0A5ErrorC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FawryPaySDK0A5ErrorC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FawryPaySDK0A5ErrorC6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -19476,6 +19595,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -36597,42 +36730,42 @@
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/NetworkError.swift",
       "kind": "StringLiteral",
-      "offset": 3876,
+      "offset": 3885,
       "length": 22,
       "value": "\"NetworkError_Unknown\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/NetworkError.swift",
       "kind": "StringLiteral",
-      "offset": 3982,
+      "offset": 3991,
       "length": 37,
       "value": "\"NetworkError_NotConnectedToInternet\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/NetworkError.swift",
       "kind": "StringLiteral",
-      "offset": 4104,
+      "offset": 4113,
       "length": 38,
       "value": "\"NetworkError_InternationalRoamingOff\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/NetworkError.swift",
       "kind": "StringLiteral",
-      "offset": 4220,
+      "offset": 4229,
       "length": 31,
       "value": "\"NetworkError_NotReachedServer\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/NetworkError.swift",
       "kind": "StringLiteral",
-      "offset": 4327,
+      "offset": 4336,
       "length": 29,
       "value": "\"NetworkError_ConnectionLost\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/NetworkError.swift",
       "kind": "StringLiteral",
-      "offset": 4439,
+      "offset": 4448,
       "length": 36,
       "value": "\"NetworkError_IncorrectDataReturned\""
     },
