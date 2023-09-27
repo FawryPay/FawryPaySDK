@@ -463,6 +463,7 @@ public enum Payment_Method : Swift.String, Swift.Codable {
   case payAtFawry
   case card
   case wallet
+  case yellowCard
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -480,6 +481,7 @@ public enum PaymentMethod : Swift.String, Swift.Codable {
   case cashOnDelivery
   case cashAccount
   case creditCard
+  case yellowCard
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
