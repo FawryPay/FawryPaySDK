@@ -47076,64 +47076,50 @@
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/Utilities\/GlobalFunctions.swift",
-      "kind": "FloatLiteral",
-      "offset": 577,
-      "length": 3,
-      "value": "3.0"
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/Utilities\/GlobalFunctions.swift",
       "kind": "BooleanLiteral",
-      "offset": 1130,
+      "offset": 916,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/Utilities\/GlobalFunctions.swift",
       "kind": "BooleanLiteral",
-      "offset": 1152,
+      "offset": 938,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/Utilities\/GlobalFunctions.swift",
       "kind": "StringLiteral",
-      "offset": 1208,
+      "offset": 994,
       "length": 24,
       "value": "\"Internet Not Available\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/Utilities\/GlobalFunctions.swift",
-      "kind": "FloatLiteral",
-      "offset": 1339,
-      "length": 3,
-      "value": "3.0"
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/Utilities\/GlobalFunctions.swift",
       "kind": "StringLiteral",
-      "offset": 1586,
+      "offset": 1417,
       "length": 38,
       "value": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/Utilities\/GlobalFunctions.swift",
       "kind": "IntegerLiteral",
-      "offset": 1642,
+      "offset": 1473,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/Utilities\/GlobalFunctions.swift",
       "kind": "StringLiteral",
-      "offset": 3124,
+      "offset": 2955,
       "length": 6,
       "value": "\"json\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/Utilities\/GlobalFunctions.swift",
       "kind": "Array",
-      "offset": 3209,
+      "offset": 3040,
       "length": 2,
       "value": "[]"
     },

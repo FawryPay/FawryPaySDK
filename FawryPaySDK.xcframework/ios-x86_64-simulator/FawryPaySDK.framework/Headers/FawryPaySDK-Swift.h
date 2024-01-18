@@ -563,7 +563,6 @@ SWIFT_CLASS("_TtC11FawryPaySDK21ThemeStyleFawryPaySDK")
 
 
 
-
 SWIFT_CLASS("_TtC11FawryPaySDK17ValuBillDataModel")
 @interface ValuBillDataModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
