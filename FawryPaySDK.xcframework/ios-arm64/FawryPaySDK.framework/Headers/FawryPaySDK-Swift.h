@@ -329,6 +329,7 @@ SWIFT_CLASS("_TtC11FawryPaySDK27BaseComponentViewController")
 
 
 
+
 SWIFT_CLASS("_TtC11FawryPaySDK24ChargePaymentParamsModel")
 @interface ChargePaymentParamsModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -480,6 +481,37 @@ SWIFT_CLASS("_TtC11FawryPaySDK28PaymentReceiptViewController")
 @end
 
 
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC11FawryPaySDK23RadioCheckboxBaseButton")
+@interface RadioCheckboxBaseButton : UIButton
+/// Keep the track of Selection and deselction
+@property (nonatomic) BOOL isOn;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK11RadioButton")
+@interface RadioButton : RadioCheckboxBaseButton
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// View container that hold all RadioButton available as first immediate subview only
+SWIFT_CLASS("_TtC11FawryPaySDK24RadioButtonContainerView")
+@interface RadioButtonContainerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+/// Ading subview in button conatiner if it is RadioButton
+- (void)didAddSubview:(UIView * _Nonnull)subview;
+/// Removing RadioButton from container
+- (void)willRemoveSubview:(UIView * _Nonnull)subview;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
+
 SWIFT_PROTOCOL("_TtP11FawryPaySDK12RowViewModel_")
 @protocol RowViewModel
 - (NSString * _Nonnull)cellIdentifier SWIFT_WARN_UNUSED_RESULT;
@@ -515,6 +547,8 @@ SWIFT_CLASS("_TtC11FawryPaySDK21ThemeStyleFawryPaySDK")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 

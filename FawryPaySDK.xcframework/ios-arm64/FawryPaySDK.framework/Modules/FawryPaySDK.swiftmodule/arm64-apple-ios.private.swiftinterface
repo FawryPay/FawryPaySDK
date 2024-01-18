@@ -9,15 +9,37 @@ import CryptoKit
 @_exported import FawryPaySDK
 import Foundation
 import IQKeyboardManagerSwift
-import MBRadioButton
 import ObjectiveC
 import RxSwift
 import Swift
-import SwiftMessages
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+public class RadioCheckboxBaseContainer<T> where T : FawryPaySDK.RadioCheckboxBaseButton {
+  public typealias Kind = T
+  public init(_ buttons: [T] = [])
+  public var allButtons: [T] {
+    get
+  }
+  public func addButtons(_ buttons: [T])
+  public func deselectAll()
+  public var selectedButtons: [T] {
+    get
+    set
+  }
+  @discardableResult
+  public func addButton(_ button: T) -> Swift.Bool
+  @discardableResult
+  public func removeButton(_ button: T) -> Swift.Bool
+  public var buttonStyle: FawryPaySDK.RadioCheckboxStyle? {
+    get
+    set
+  }
+  public func setEachButtonStyle(_ body: (T) -> FawryPaySDK.RadioCheckboxStyle)
+  public func compact()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class FawrySDKConfigurationManager : ObjectiveC.NSObject {
   public static let shared: FawryPaySDK.FawrySDKConfigurationManager
   public func loadConfigurations(with baseURL: Swift.String? = nil)
@@ -243,6 +265,30 @@ extension FawryPaySDK.OTPFieldView : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldBeginEditing(_ textField: UIKit.UITextField) -> Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
 }
+@_inheritsConvenienceInitializers public class RadioButtonContainer : FawryPaySDK.RadioCheckboxBaseContainer<FawryPaySDK.RadioButton> {
+  weak public var delegate: (any FawryPaySDK.RadioButtonDelegate)? {
+    get
+    set
+  }
+  public var selectedButton: FawryPaySDK.RadioButtonContainer.Kind? {
+    get
+    set
+  }
+  @discardableResult
+  override public func addButton(_ button: FawryPaySDK.RadioButtonContainer.Kind) -> Swift.Bool
+  public var radioButtonColor: FawryPaySDK.RadioButtonColor? {
+    get
+    set
+  }
+  public var radioCircleStyle: FawryPaySDK.RadioButtonCircleStyle? {
+    get
+    set
+  }
+  public func setEachRadioButtonColor(_ body: (FawryPaySDK.RadioButtonContainer.Kind) -> FawryPaySDK.RadioButtonColor)
+  public func setEachRadioButtonCircleStyle(_ body: (FawryPaySDK.RadioButtonContainer.Kind) -> FawryPaySDK.RadioButtonCircleStyle)
+  override public init(_ buttons: [FawryPaySDK.RadioButton] = super)
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class DesignableView : UIKit.UIView {
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var cornerRadius: CoreFoundation.CGFloat {
     @objc get
@@ -344,6 +390,9 @@ public class LaunchMerchantModel : Swift.Codable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
+}
+public struct RadioButtonColor {
+  public init(active: UIKit.UIColor, inactive: UIKit.UIColor)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class BaseComponentViewController : FawryPaySDK.BaseViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
@@ -482,6 +531,8 @@ public enum PaymentMethod : Swift.String, Swift.Codable {
   case cashAccount
   case creditCard
   case yellowCard
+  case forsa
+  case souhoola
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -559,6 +610,17 @@ extension FawryPaySDK.PaymentReceiptViewController : UIKit.UITableViewDelegate, 
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+}
+@objc @_Concurrency.MainActor(unsafe) open class RadioButtonContainerView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var buttonContainer: FawryPaySDK.RadioButtonContainer {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didAddSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willRemoveSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) public func addButton(_ button: FawryPaySDK.RadioButtonContainer.Kind)
+  @_Concurrency.MainActor(unsafe) public func removeButton(_ view: FawryPaySDK.RadioButtonContainer.Kind)
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class BaseViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
@@ -638,6 +700,29 @@ public enum FawrySDKStatusCode : Swift.Int {
   public var rawValue: Swift.Int {
     get
   }
+}
+public struct RadioButtonCircleStyle {
+  public init(outerCircle: CoreFoundation.CGFloat = 16, innerCircle: CoreFoundation.CGFloat = 7, outerCircleBorder: CoreFoundation.CGFloat = 2, contentPadding: CoreFoundation.CGFloat = 6)
+  public init(outerCircle: CoreFoundation.CGFloat, innerCircle: CoreFoundation.CGFloat)
+  public init(outerCircle: CoreFoundation.CGFloat, innerCircle: CoreFoundation.CGFloat, outerCircleBorder: CoreFoundation.CGFloat)
+}
+public protocol RadioButtonDelegate : AnyObject {
+  func radioButtonDidSelect(_ button: FawryPaySDK.RadioButton)
+  func radioButtonDidDeselect(_ button: FawryPaySDK.RadioButton)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class RadioButton : FawryPaySDK.RadioCheckboxBaseButton {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any FawryPaySDK.RadioButtonDelegate)?
+  @_Concurrency.MainActor(unsafe) public var radioCircle: FawryPaySDK.RadioButtonCircleStyle {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var radioButtonColor: FawryPaySDK.RadioButtonColor! {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
 }
 extension UIKit.UIColor {
   public static var themeColor: UIKit.UIColor {
@@ -727,6 +812,9 @@ public enum ServiceTypeCode : Swift.String {
   public var interestAmount: Swift.Double?
   public var upFrontFees: Swift.Double?
   public var valUBillData: FawryPaySDK.ValuBillDataModel?
+  public var loanNumber: Swift.String?
+  public var downPayment: Swift.Double?
+  public var totalFinancedAmount: Swift.Double?
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -735,6 +823,24 @@ public struct NextActionModel : Swift.Codable {
   public init(redirectUrl: Swift.String?, redirectType: Swift.String?)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public enum RadioCheckboxStyle {
+  case rounded(radius: CoreFoundation.CGFloat), square, circle
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class RadioCheckboxBaseButton : UIKit.UIButton {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var isOn: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) convenience public init?(type buttonType: UIKit.UIButton.ButtonType)
+  @_Concurrency.MainActor(unsafe) public var style: FawryPaySDK.RadioCheckboxStyle {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public func updateSelectionState()
+  @objc deinit
 }
 extension FawryPaySDK.MWalletOption : Swift.Equatable {}
 extension FawryPaySDK.MWalletOption : Swift.Hashable {}
