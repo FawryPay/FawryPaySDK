@@ -52103,119 +52103,119 @@
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2594,
+      "offset": 2641,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2602,
+      "offset": 2649,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3374,
+      "offset": 3421,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "Array",
-      "offset": 3731,
+      "offset": 3778,
       "length": 20,
       "value": "[\"application\/json\"]"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 3928,
+      "offset": 3975,
       "length": 20,
       "value": "\"RESPONSE: \""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 3947,
+      "offset": 3994,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 3976,
+      "offset": 4023,
       "length": 10,
       "value": "\"REQUEST:\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 4012,
+      "offset": 4059,
       "length": 16,
       "value": "\"--------------\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 4325,
+      "offset": 4372,
       "length": 24,
       "value": "\"JSONNNN: \""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 4348,
+      "offset": 4395,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4478,
+      "offset": 4525,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 5563,
+      "offset": 5610,
       "length": 12,
       "value": "\"statusCode\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5637,
+      "offset": 5684,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8378,
+      "offset": 8425,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 9221,
+      "offset": 9268,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "Dictionary",
-      "offset": 10126,
+      "offset": 10173,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/markhanna\/Documents\/GitLab\/fawrypay_Anonymous\/FawryPaySDK\/Core\/DataLayers\/APIServices\/APIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10470,
+      "offset": 10517,
       "length": 3,
       "value": "300"
     },
