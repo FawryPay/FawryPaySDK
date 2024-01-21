@@ -580,13 +580,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -948,13 +941,6 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -9406,13 +9392,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -12037,13 +12016,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -12957,13 +12929,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -13834,13 +13799,6 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -14989,13 +14947,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -17575,13 +17526,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -25610,13 +25554,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -26508,13 +26445,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -26871,13 +26801,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -33444,34 +33367,6 @@
         "moduleName": "FawryPaySDK"
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FawryPaySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "FawryPaySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "FawryPaySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "DeveloperToolsSupport",
-        "printedName": "DeveloperToolsSupport",
-        "declKind": "Import",
-        "moduleName": "FawryPaySDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "UIColor",
         "printedName": "UIColor",
@@ -34880,13 +34775,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "__DefaultCustomPlaygroundQuickLookable",
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
@@ -35016,13 +34904,6 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           },
           {
             "kind": "Conformance",
@@ -35417,28 +35298,6 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_FormatSpecifiable",
-            "printedName": "_FormatSpecifiable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_Arg",
-                "printedName": "_Arg",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int64",
-                    "printedName": "Swift.Int64",
-                    "usr": "s:s5Int64V"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI18_FormatSpecifiableP",
-            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
           }
         ]
       },
@@ -35478,81 +35337,8 @@
         "usr": "s:10Foundation4DateV",
         "mangledName": "$s10Foundation4DateV",
         "moduleName": "Foundation",
-        "intro_Macosx": "10.10",
-        "intro_iOS": "8.0",
-        "intro_tvOS": "9.0",
-        "intro_watchOS": "2.0",
-        "declAttributes": [
-          "Available",
-          "Available",
-          "Available",
-          "Available"
-        ],
         "isExternal": true,
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
           {
             "kind": "Conformance",
             "name": "ReferenceConvertible",
@@ -35574,6 +35360,77 @@
             ],
             "usr": "s:10Foundation20ReferenceConvertibleP",
             "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
           },
           {
             "kind": "Conformance",
@@ -35606,25 +35463,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Strideable",
-            "printedName": "Strideable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Stride",
-                "printedName": "Stride",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sx",
-            "mangledName": "$sSx"
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -36183,41 +36032,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
-          },
-          {
-            "kind": "Conformance",
             "name": "URLConvertible",
             "printedName": "URLConvertible",
             "usr": "s:9Alamofire14URLConvertibleP",
@@ -36257,19 +36071,33 @@
         "usr": "s:10Foundation4DataV",
         "mangledName": "$s10Foundation4DataV",
         "moduleName": "Foundation",
-        "intro_Macosx": "10.10",
-        "intro_iOS": "8.0",
-        "intro_tvOS": "9.0",
-        "intro_watchOS": "2.0",
         "declAttributes": [
-          "Frozen",
-          "Available",
-          "Available",
-          "Available",
-          "Available"
+          "Frozen"
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -36662,25 +36490,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "ReferenceConvertible",
-            "printedName": "ReferenceConvertible",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ReferenceType",
-                "printedName": "ReferenceType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSData",
-                    "printedName": "Foundation.NSData",
-                    "usr": "c:objc(cs)NSData"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation20ReferenceConvertibleP",
-            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
           },
           {
             "kind": "Conformance",
@@ -36706,27 +36533,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -36738,41 +36544,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       },
@@ -36923,13 +36694,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       }
@@ -58286,328 +58050,6 @@
       "offset": 1199,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 619,
-      "length": 10,
-      "value": "\"FAQColor\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 774,
-      "length": 22,
-      "value": "\"FawryBackGroundColor\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 926,
-      "length": 12,
-      "value": "\"FawryBlack\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1085,
-      "length": 23,
-      "value": "\"FawryButtonGreenColor\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1247,
-      "length": 19,
-      "value": "\"FawryDividerColor\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1408,
-      "length": 18,
-      "value": "\"FawryDividerDark\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1552,
-      "length": 10,
-      "value": "\"FawryRed\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1703,
-      "length": 20,
-      "value": "\"FawryTextGreyColor\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1958,
-      "length": 12,
-      "value": "\"addVoucher\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2095,
-      "length": 10,
-      "value": "\"add_item\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2248,
-      "length": 19,
-      "value": "\"available_voucher\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2396,
-      "length": 12,
-      "value": "\"back_black\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2537,
-      "length": 12,
-      "value": "\"back_white\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2669,
-      "length": 7,
-      "value": "\"badge\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2807,
-      "length": 13,
-      "value": "\"beanos_card\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2948,
-      "length": 11,
-      "value": "\"checkmark\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3079,
-      "length": 7,
-      "value": "\"coins\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3218,
-      "length": 13,
-      "value": "\"coinsvector\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3372,
-      "length": 18,
-      "value": "\"consumed_voucher\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3512,
-      "length": 8,
-      "value": "\"coupon\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3651,
-      "length": 13,
-      "value": "\"cross_black\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3795,
-      "length": 13,
-      "value": "\"cross_white\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 3945,
-      "length": 16,
-      "value": "\"delete_address\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4092,
-      "length": 13,
-      "value": "\"delete_item\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4240,
-      "length": 15,
-      "value": "\"discount-code\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4401,
-      "length": 20,
-      "value": "\"discountCodeVector\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4550,
-      "length": 12,
-      "value": "\"down_arrow\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4695,
-      "length": 14,
-      "value": "\"edit_address\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4848,
-      "length": 17,
-      "value": "\"expired_voucher\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4994,
-      "length": 12,
-      "value": "\"fawry_logo\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 5143,
-      "length": 16,
-      "value": "\"location_black\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 5281,
-      "length": 8,
-      "value": "\"marker\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 5430,
-      "length": 18,
-      "value": "\"mastercard_small\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 5576,
-      "length": 11,
-      "value": "\"nextArrow\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 5709,
-      "length": 8,
-      "value": "\"pencil\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 5846,
-      "length": 12,
-      "value": "\"plus_green\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 5998,
-      "length": 18,
-      "value": "\"powered_by_fawry\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 6150,
-      "length": 14,
-      "value": "\"redeemPoints\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 6295,
-      "length": 13,
-      "value": "\"search_grey\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 6443,
-      "length": 15,
-      "value": "\"selected_card\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 6587,
-      "length": 12,
-      "value": "\"tick_white\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 6732,
-      "length": 14,
-      "value": "\"unknown_card\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 6885,
-      "length": 17,
-      "value": "\"unselected_card\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 7027,
-      "length": 10,
-      "value": "\"up_arrow\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 7155,
-      "length": 6,
-      "value": "\"valu\""
-    },
-    {
-      "filePath": "\/Users\/markhanna\/Library\/Developer\/Xcode\/DerivedData\/FawryPay-advtghmlkpkewpfguveutwepylos\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FawryPaySDK\/IntermediateBuildFilesPath\/FawryPaySDK.build\/Release-iphoneos\/FawryPaySDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 7290,
-      "length": 12,
-      "value": "\"visa_small\""
     }
   ]
 }

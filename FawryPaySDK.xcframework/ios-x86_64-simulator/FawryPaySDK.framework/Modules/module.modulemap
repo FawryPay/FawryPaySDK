@@ -1,7 +1,7 @@
 framework module FawryPaySDK {
   umbrella header "FawryPaySDK.h"
-  export *
 
+  export *
   module * { export * }
 }
 
