@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target x86_64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FawryPaySDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FawryPaySDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Alamofire
 import CommonCrypto
@@ -23,29 +23,29 @@ public protocol RadioButtonDelegate : AnyObject {
   func radioButtonDidSelect(_ button: FawryPaySDK.RadioButton)
   func radioButtonDidDeselect(_ button: FawryPaySDK.RadioButton)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class RadioButton : FawryPaySDK.RadioCheckboxBaseButton {
-  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any FawryPaySDK.RadioButtonDelegate)?
-  @_Concurrency.MainActor @preconcurrency public var radioCircle: FawryPaySDK.RadioButtonCircleStyle {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class RadioButton : FawryPaySDK.RadioCheckboxBaseButton {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any FawryPaySDK.RadioButtonDelegate)?
+  @_Concurrency.MainActor(unsafe) public var radioCircle: FawryPaySDK.RadioButtonCircleStyle {
     get
     set
   }
-  @_Concurrency.MainActor @preconcurrency public var radioButtonColor: FawryPaySDK.RadioButtonColor! {
+  @_Concurrency.MainActor(unsafe) public var radioButtonColor: FawryPaySDK.RadioButtonColor! {
     get
     set
   }
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @objc deinit
 }
-@objc @_Concurrency.MainActor @preconcurrency open class RadioButtonContainerView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public var buttonContainer: FawryPaySDK.RadioButtonContainer {
+@objc @_Concurrency.MainActor(unsafe) open class RadioButtonContainerView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var buttonContainer: FawryPaySDK.RadioButtonContainer {
     get
   }
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func didAddSubview(_ subview: UIKit.UIView)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func willRemoveSubview(_ subview: UIKit.UIView)
-  @_Concurrency.MainActor @preconcurrency public func addButton(_ button: FawryPaySDK.RadioButtonContainer.Kind)
-  @_Concurrency.MainActor @preconcurrency public func removeButton(_ view: FawryPaySDK.RadioButtonContainer.Kind)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didAddSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willRemoveSubview(_ subview: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) public func addButton(_ button: FawryPaySDK.RadioButtonContainer.Kind)
+  @_Concurrency.MainActor(unsafe) public func removeButton(_ view: FawryPaySDK.RadioButtonContainer.Kind)
   @objc deinit
 }
 public typealias callBackExternalPaymentMethods = ((Swift.String, @escaping (FawryPaySDK.ExternalPaymentMethodResponse) -> Swift.Void) -> Swift.Void)
@@ -179,18 +179,18 @@ public class MWalletInfo {
   @objc deinit
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: FawryPaySDK.ToastPosition = ToastManager.shared.position, title: Swift.String? = nil, image: UIKit.UIImage? = nil, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, title: Swift.String?, image: UIKit.UIImage?, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)?)
-  @_Concurrency.MainActor @preconcurrency public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: FawryPaySDK.ToastPosition = ToastManager.shared.position, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency public func hideToast()
-  @_Concurrency.MainActor @preconcurrency public func hideToast(_ toast: UIKit.UIView)
-  @_Concurrency.MainActor @preconcurrency public func hideAllToasts(includeActivity: Swift.Bool = false, clearQueue: Swift.Bool = true)
-  @_Concurrency.MainActor @preconcurrency public func clearToastQueue()
-  @_Concurrency.MainActor @preconcurrency public func makeToastActivity(_ position: FawryPaySDK.ToastPosition)
-  @_Concurrency.MainActor @preconcurrency public func makeToastActivity(_ point: CoreFoundation.CGPoint)
-  @_Concurrency.MainActor @preconcurrency public func hideToastActivity()
-  @_Concurrency.MainActor @preconcurrency public func toastViewForMessage(_ message: Swift.String?, title: Swift.String?, image: UIKit.UIImage?, style: FawryPaySDK.ToastStyle) throws -> UIKit.UIView
+  @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: FawryPaySDK.ToastPosition = ToastManager.shared.position, title: Swift.String? = nil, image: UIKit.UIImage? = nil, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func makeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, title: Swift.String?, image: UIKit.UIImage?, style: FawryPaySDK.ToastStyle = ToastManager.shared.style, completion: ((_ didTap: Swift.Bool) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: FawryPaySDK.ToastPosition = ToastManager.shared.position, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreFoundation.CGPoint, completion: ((_ didTap: Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public func hideToast()
+  @_Concurrency.MainActor(unsafe) public func hideToast(_ toast: UIKit.UIView)
+  @_Concurrency.MainActor(unsafe) public func hideAllToasts(includeActivity: Swift.Bool = false, clearQueue: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public func clearToastQueue()
+  @_Concurrency.MainActor(unsafe) public func makeToastActivity(_ position: FawryPaySDK.ToastPosition)
+  @_Concurrency.MainActor(unsafe) public func makeToastActivity(_ point: CoreFoundation.CGPoint)
+  @_Concurrency.MainActor(unsafe) public func hideToastActivity()
+  @_Concurrency.MainActor(unsafe) public func toastViewForMessage(_ message: Swift.String?, title: Swift.String?, image: UIKit.UIImage?, style: FawryPaySDK.ToastStyle) throws -> UIKit.UIView
 }
 public struct ToastStyle {
   public init()
@@ -323,32 +323,32 @@ public struct ForsaInstallmentPlanModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class PaymentDetailsViewController : FawryPaySDK.BaseViewController {
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak open var buttonBaseView: UIKit.UIView!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency open var backgroundView: UIKit.UIView!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak open var headerView: UIKit.UIView!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak open var backButton: UIKit.UIButton!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak open var labelHeader: UIKit.UILabel!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak open var confirmPaymentButton: UIKit.UIButton!
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
-  @objc @IBAction @_Concurrency.MainActor @preconcurrency public func backButtonAction(_ sender: Any)
-  @objc @IBAction @_Concurrency.MainActor @preconcurrency public func confirmPaymentButtonAction(_ sender: Any? = nil)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class PaymentDetailsViewController : FawryPaySDK.BaseViewController {
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var buttonBaseView: UIKit.UIView!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) open var backgroundView: UIKit.UIView!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var headerView: UIKit.UIView!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var backButton: UIKit.UIButton!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var labelHeader: UIKit.UILabel!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var confirmPaymentButton: UIKit.UIButton!
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @objc @IBAction @_Concurrency.MainActor(unsafe) public func backButtonAction(_ sender: Any)
+  @objc @IBAction @_Concurrency.MainActor(unsafe) public func confirmPaymentButtonAction(_ sender: Any? = nil)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension FawryPaySDK.PaymentDetailsViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
 }
 extension FawryPaySDK.PaymentDetailsViewController : UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
 }
 @objc public protocol OTPFieldViewDelegate {
   @objc func shouldBecomeFirstResponderForOTP(otpTextFieldIndex index: Swift.Int) -> Swift.Bool
@@ -377,34 +377,34 @@ extension FawryPaySDK.PaymentDetailsViewController : UIKit.UITextFieldDelegate {
     get
   }
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class OTPFieldView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public var displayType: FawryPaySDK.DisplayType
-  @_Concurrency.MainActor @preconcurrency public var fieldsCount: Swift.Int
-  @_Concurrency.MainActor @preconcurrency public var otpInputType: FawryPaySDK.KeyboardType
-  @_Concurrency.MainActor @preconcurrency public var fieldFont: UIKit.UIFont
-  @_Concurrency.MainActor @preconcurrency public var secureEntry: Swift.Bool
-  @_Concurrency.MainActor @preconcurrency public var hideEnteredText: Swift.Bool
-  @_Concurrency.MainActor @preconcurrency public var requireCursor: Swift.Bool
-  @_Concurrency.MainActor @preconcurrency public var cursorColor: UIKit.UIColor
-  @_Concurrency.MainActor @preconcurrency public var fieldSize: CoreFoundation.CGFloat
-  @_Concurrency.MainActor @preconcurrency public var separatorSpace: CoreFoundation.CGFloat
-  @_Concurrency.MainActor @preconcurrency public var fieldBorderWidth: CoreFoundation.CGFloat
-  @_Concurrency.MainActor @preconcurrency public var shouldAllowIntermediateEditing: Swift.Bool
-  @_Concurrency.MainActor @preconcurrency public var defaultBackgroundColor: UIKit.UIColor
-  @_Concurrency.MainActor @preconcurrency public var filledBackgroundColor: UIKit.UIColor
-  @_Concurrency.MainActor @preconcurrency public var defaultBorderColor: UIKit.UIColor
-  @_Concurrency.MainActor @preconcurrency public var filledBorderColor: UIKit.UIColor
-  @_Concurrency.MainActor @preconcurrency public var errorBorderColor: UIKit.UIColor?
-  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any FawryPaySDK.OTPFieldViewDelegate)?
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
-  @_Concurrency.MainActor @preconcurrency public func initializeUI()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class OTPFieldView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var displayType: FawryPaySDK.DisplayType
+  @_Concurrency.MainActor(unsafe) public var fieldsCount: Swift.Int
+  @_Concurrency.MainActor(unsafe) public var otpInputType: FawryPaySDK.KeyboardType
+  @_Concurrency.MainActor(unsafe) public var fieldFont: UIKit.UIFont
+  @_Concurrency.MainActor(unsafe) public var secureEntry: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var hideEnteredText: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var requireCursor: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var cursorColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var fieldSize: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var separatorSpace: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var fieldBorderWidth: CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) public var shouldAllowIntermediateEditing: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var defaultBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var filledBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var defaultBorderColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var filledBorderColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var errorBorderColor: UIKit.UIColor?
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any FawryPaySDK.OTPFieldViewDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) public func initializeUI()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension FawryPaySDK.OTPFieldView : UIKit.UITextFieldDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldShouldBeginEditing(_ textField: UIKit.UITextField) -> Swift.Bool
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldShouldBeginEditing(_ textField: UIKit.UITextField) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
 }
 public struct RadioButtonCircleStyle {
   public init(outerCircle: CoreFoundation.CGFloat = 16, innerCircle: CoreFoundation.CGFloat = 7, outerCircleBorder: CoreFoundation.CGFloat = 2, contentPadding: CoreFoundation.CGFloat = 6)
@@ -417,73 +417,73 @@ public struct RadioButtonColor {
 public enum RadioCheckboxStyle {
   case rounded(radius: CoreFoundation.CGFloat), square, circle
 }
-@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency public class RadioCheckboxBaseButton : UIKit.UIButton {
-  @objc @_Concurrency.MainActor @preconcurrency dynamic public var isOn: Swift.Bool {
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class RadioCheckboxBaseButton : UIKit.UIButton {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public var isOn: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor @preconcurrency convenience public init?(type buttonType: UIKit.UIButton.ButtonType)
-  @_Concurrency.MainActor @preconcurrency public var style: FawryPaySDK.RadioCheckboxStyle {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) convenience public init?(type buttonType: UIKit.UIButton.ButtonType)
+  @_Concurrency.MainActor(unsafe) public var style: FawryPaySDK.RadioCheckboxStyle {
     get
     set
   }
-  @_Concurrency.MainActor @preconcurrency public func updateSelectionState()
+  @_Concurrency.MainActor(unsafe) public func updateSelectionState()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency public class DesignableView : UIKit.UIView {
-  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var cornerRadius: CoreFoundation.CGFloat {
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class DesignableView : UIKit.UIView {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var cornerRadius: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var borderWidth: CoreFoundation.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var borderWidth: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var borderColor: UIKit.UIColor? {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var borderColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var shadowRadius: CoreFoundation.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowRadius: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var shadowOpacity: Swift.Float {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowOpacity: Swift.Float {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var shadowOffset: CoreFoundation.CGSize {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowOffset: CoreFoundation.CGSize {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var shadowColor: UIKit.UIColor? {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var shadowColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class SavedCardsViewController : FawryPaySDK.BaseViewController {
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency open var backgroundView: UIKit.UIView!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak open var headerView: UIKit.UIView!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak open var labelHeader: UIKit.UILabel!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak open var backButton: UIKit.UIButton!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak open var addNewCardButton: UIKit.UIButton!
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
-  @objc @IBAction @_Concurrency.MainActor @preconcurrency public func backButtonAction(_ sender: Any)
-  @objc @IBAction @_Concurrency.MainActor @preconcurrency public func addNewCardButtonAction(_ sender: Any)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class SavedCardsViewController : FawryPaySDK.BaseViewController {
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) open var backgroundView: UIKit.UIView!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var headerView: UIKit.UIView!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var labelHeader: UIKit.UILabel!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var backButton: UIKit.UIButton!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var addNewCardButton: UIKit.UIButton!
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @objc @IBAction @_Concurrency.MainActor(unsafe) public func backButtonAction(_ sender: Any)
+  @objc @IBAction @_Concurrency.MainActor(unsafe) public func addNewCardButtonAction(_ sender: Any)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension FawryPaySDK.SavedCardsViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, commit editingStyle: UIKit.UITableViewCell.EditingStyle, forRowAt indexPath: Foundation.IndexPath)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, commit editingStyle: UIKit.UITableViewCell.EditingStyle, forRowAt indexPath: Foundation.IndexPath)
 }
 @objc public class GetSouhoolaInstallmentPlansResponse : ObjectiveC.NSObject, Swift.Codable {
   public enum CodingKeys : Swift.String, Swift.CodingKey {
@@ -529,7 +529,7 @@ public enum AddressErrorMessages : Swift.String {
   }
 }
 extension UIKit.UITableViewCell {
-  @_Concurrency.MainActor @preconcurrency public static func cellIdentifier() -> Swift.String
+  @_Concurrency.MainActor(unsafe) public static func cellIdentifier() -> Swift.String
 }
 @objc @_inheritsConvenienceInitializers public class FrameworkHelper : ObjectiveC.NSObject {
   public var valuManager: FawryPaySDK.ValuManager?
@@ -560,12 +560,12 @@ public class LaunchMerchantModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class BaseComponentViewController : FawryPaySDK.BaseViewController {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
-  @objc @IBAction @_Concurrency.MainActor @preconcurrency public func crossTapped(_ sender: Any?)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class BaseComponentViewController : FawryPaySDK.BaseViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @objc @IBAction @_Concurrency.MainActor(unsafe) public func crossTapped(_ sender: Any?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public struct ReviewData : Swift.Codable {
@@ -920,20 +920,20 @@ public class AccountTypeDataModels : Swift.Codable {
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class AddCardViewController : FawryPaySDK.BaseViewController {
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency open var backgroundView: UIKit.UIView!
-  @_Concurrency.MainActor @preconcurrency public var cardModel: FawryPaySDK.CardDetailsModel?
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AddCardViewController : FawryPaySDK.BaseViewController {
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) open var backgroundView: UIKit.UIView!
+  @_Concurrency.MainActor(unsafe) public var cardModel: FawryPaySDK.CardDetailsModel?
   public typealias onCompletion = () -> Swift.Void
   public typealias onErrorHandler = (FawryPaySDK.FawryError?) -> Swift.Void
   public typealias onAddNewCard = (FawryPaySDK.SavedCard) -> Swift.Void
   public typealias onDismiss = () -> Swift.Void
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency public var isModal: Swift.Bool {
+  @_Concurrency.MainActor(unsafe) public var isModal: Swift.Bool {
     get
   }
 }
@@ -967,36 +967,36 @@ public struct ErrorResponse : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class PaymentReceiptViewController : FawryPaySDK.BaseViewController {
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak open var doneButton: UIKit.UIButton!
-  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak open var backBtn: UIKit.UIButton!
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
-  @objc @IBAction @_Concurrency.MainActor @preconcurrency public func backButtonAction(_ sender: Any)
-  @objc @IBAction @_Concurrency.MainActor @preconcurrency public func doneButtonAction(_ sender: Any)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class PaymentReceiptViewController : FawryPaySDK.BaseViewController {
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var doneButton: UIKit.UIButton!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak open var backBtn: UIKit.UIButton!
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @objc @IBAction @_Concurrency.MainActor(unsafe) public func backButtonAction(_ sender: Any)
+  @objc @IBAction @_Concurrency.MainActor(unsafe) public func doneButtonAction(_ sender: Any)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension FawryPaySDK.PaymentReceiptViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class BaseViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class BaseViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
     @objc get
   }
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension FawryPaySDK.BaseViewController : UIKit.UIGestureRecognizerDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
 }
 public struct ProductItem : Swift.Codable {
   public let productPrice: Swift.Double?
