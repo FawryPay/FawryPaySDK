@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target x86_64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FawryPaySDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
@@ -287,6 +287,30 @@ public class ChargeItemsParamsModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+@_hasMissingDesignatedInitializers public class AmanPlansResponse : Swift.Codable {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case requestedAmount
+    case totalAmount
+    case installmentPlans
+    case orderReferenceNumber
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
 public struct ForsaInstallmentPlanModel : Swift.Codable {
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case id, title
@@ -317,6 +341,12 @@ public struct ForsaInstallmentPlanModel : Swift.Codable {
   public init(id: Swift.Int?, title: Swift.String?, titleEn: Swift.String?, titleAr: Swift.String?, interestRate: Swift.Double?, interestType: Swift.String?, months: Swift.Int?, earlySettlementFees: Swift.Double?, adminFees: FawryPaySDK.AdminFees?, catID: Swift.Int?, brandID: Swift.Int?, calcAdminFees: Swift.Double?, calcInterestRate: Swift.Double?, totalInterest: Swift.Double?, totalOrderAmountWithInterest: Swift.Double?, monthAmount: Swift.Double?)
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
+}
+public class LaunchCheckoutModel : Swift.Codable {
+  public init(scheme: Swift.String?)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_hasMissingDesignatedInitializers public class ValuBillDataModel : ObjectiveC.NSObject, Swift.Codable {
   @objc deinit
@@ -551,6 +581,7 @@ extension UIKit.UITableViewCell {
   public func launchCardManager(on baseController: UIKit.UIViewController, launchModel: FawryPaySDK.FawryLaunchModel? = nil, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, currency: Swift.String? = Currency.egp, enable3Ds: Swift.Bool = false, errorBlock: @escaping FawryPaySDK.FrameworkHelper.onErrorHandler, onAddedNewCard: @escaping FawryPaySDK.AddCardViewController.onAddNewCard, dismissBlock: @escaping FawryPaySDK.AddCardViewController.onDismiss)
   public func launchBNBLSeamlessFlows(on baseController: UIKit.UIViewController, isAnimating: Swift.Bool = true, customViewNib: Swift.String? = nil, customViewController: UIKit.UIViewController? = nil, launchModel: FawryPaySDK.FawryLaunchModel? = nil, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, currency: Swift.String? = Currency.egp, enable3Ds: Swift.Bool = false, completionBlock: @escaping FawryPaySDK.FrameworkHelper.onCompletion, onPreCompletionHandler: @escaping FawryPaySDK.FrameworkHelper.onPreCompletion, errorBlock: @escaping FawryPaySDK.FrameworkHelper.onErrorHandler, onPaymentCompletedHandler: @escaping FawryPaySDK.FrameworkHelper.onPaymentCompletedHandler, onSuccessHandler: @escaping FawryPaySDK.FrameworkHelper.onSuccessHandler)
   public func getMerchantInfoSeamless(on baseController: UIKit.UIViewController, isAnimating: Swift.Bool = true, customViewNib: Swift.String? = nil, customViewController: UIKit.UIViewController? = nil, launchModel: FawryPaySDK.FawryLaunchModel? = nil, baseURL: Swift.String? = nil, appLanguage: Swift.String? = nil, currency: Swift.String? = Currency.egp, enable3Ds: Swift.Bool = false, completionBlock: @escaping FawryPaySDK.FrameworkHelper.onCompletion, onPreCompletionHandler: @escaping FawryPaySDK.FrameworkHelper.onPreCompletion, errorBlock: @escaping FawryPaySDK.FrameworkHelper.onErrorHandler, onPaymentCompletedHandler: @escaping FawryPaySDK.FrameworkHelper.onPaymentCompletedHandler, onSuccessHandler: @escaping FawryPaySDK.FrameworkHelper.onSuccessHandler)
+  public func handleCheckoutURL(url: Foundation.URL)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -658,6 +689,28 @@ public struct SavedCard : Swift.Codable {
   public var token: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@objc public class GetAmanInstallmentPlansResponse : ObjectiveC.NSObject, Swift.Codable {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case fawryReferenceNumber
+    case installmentPlans
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc public class ThemeStyleFawryPaySDK : ObjectiveC.NSObject {
   public var theme: UIKit.UIColor?
@@ -774,6 +827,8 @@ public enum PaymentMethod : Swift.String, Swift.Codable {
   case yellowCard
   case forsa
   case souhoola
+  case myFawry
+  case aman
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -1070,6 +1125,30 @@ public struct TenureInstallmentPlans : Swift.Codable, Swift.Equatable {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+public class AmanInstallmentPlan : Swift.Codable, Swift.Equatable {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case months
+    case adminFees
+    case monthlyAmount
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  public static func == (lhs: FawryPaySDK.AmanInstallmentPlan, rhs: FawryPaySDK.AmanInstallmentPlan) -> Swift.Bool
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
 public enum SDKMode : Swift.String {
   case addCard
   case choosePaymentMethod
@@ -1214,7 +1293,7 @@ public class FawryLaunchModel : Swift.Codable {
   public init(customer: FawryPaySDK.LaunchCustomerModel?, merchant: FawryPaySDK.LaunchMerchantModel?, chargeItems: [FawryPaySDK.ChargeItemsParamsModel]?, signature: Swift.String?)
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
-  public init(customer: FawryPaySDK.LaunchCustomerModel?, merchant: FawryPaySDK.LaunchMerchantModel?, chargeItems: [FawryPaySDK.ChargeItemsParamsModel]?, signature: Swift.String?, allowVoucher: Swift.Bool, paymentWithCardToken: Swift.Bool?, paymentMethod: FawryPaySDK.Payment_Method = .all, externalPaymentMethod: [FawryPaySDK.PaymentMethods]? = nil, apiPath: Swift.String? = nil)
+  public init(customer: FawryPaySDK.LaunchCustomerModel?, merchant: FawryPaySDK.LaunchMerchantModel?, chargeItems: [FawryPaySDK.ChargeItemsParamsModel]?, signature: Swift.String?, allowVoucher: Swift.Bool, paymentWithCardToken: Swift.Bool?, paymentMethod: FawryPaySDK.Payment_Method = .all, externalPaymentMethod: [FawryPaySDK.PaymentMethods]? = nil, apiPath: Swift.String? = nil, checkoutModel: FawryPaySDK.LaunchCheckoutModel? = nil)
   @objc deinit
 }
 public struct SendOTPData : Swift.Codable {
@@ -1293,6 +1372,29 @@ public enum ServiceTypeCode : Swift.String {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
+public class AmanOtpResponse : Swift.Codable {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case resultId
+    case resultMessage
+    case comment
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
 public class PaymentChargeResponse : Swift.Codable {
   public var merchantRefNumber: Swift.String?
   public var statusDescription: Swift.String?
@@ -1323,6 +1425,7 @@ public class PaymentChargeResponse : Swift.Codable {
   public var totalFinancedAmount: Swift.Double?
   public var adminFees: Swift.String?
   public var interestRate: Swift.Int?
+  public init()
   public init(merchantRefNumber: Swift.String?, statusDescription: Swift.String?, customerMail: Swift.String?, type: Swift.String?, referenceNumber: Swift.String?, customerProfileId: Swift.String?, expirationTime: Swift.Double?, paymentMethod: Swift.String?, customerMobile: Swift.String?, signature: Swift.String?, statusCode: Swift.Int?, fawryFees: Swift.Double?, paymentAmount: Swift.Double?, orderAmount: Swift.Double?, walletQr: Swift.String?, shippingFees: Swift.Double?, nextAction: FawryPaySDK.NextActionModel?, usedBTC: Swift.Int?, orderStatus: Swift.String?, interestAmount: Swift.Double?, upFrontFees: Swift.Double?, valUBillData: FawryPaySDK.ValuBillDataModel? = nil, loanNumber: Swift.String?, downPayment: Swift.Double?, totalFinancedAmount: Swift.Double?, adminFees: Swift.String?, interestRate: Swift.Int?)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -1342,6 +1445,9 @@ extension FawryPaySDK.ToastPosition : Swift.Equatable {}
 extension FawryPaySDK.ToastPosition : Swift.Hashable {}
 extension FawryPaySDK.NetworkError : Swift.Equatable {}
 extension FawryPaySDK.NetworkError : Swift.Hashable {}
+extension FawryPaySDK.AmanPlansResponse.CodingKeys : Swift.Equatable {}
+extension FawryPaySDK.AmanPlansResponse.CodingKeys : Swift.Hashable {}
+extension FawryPaySDK.AmanPlansResponse.CodingKeys : Swift.RawRepresentable {}
 extension FawryPaySDK.ForsaInstallmentPlanModel.CodingKeys : Swift.Equatable {}
 extension FawryPaySDK.ForsaInstallmentPlanModel.CodingKeys : Swift.Hashable {}
 extension FawryPaySDK.ForsaInstallmentPlanModel.CodingKeys : Swift.RawRepresentable {}
@@ -1360,6 +1466,9 @@ extension FawryPaySDK.AddressErrorMessages : Swift.RawRepresentable {}
 extension FawryPaySDK.ReviewData.CodingKeys : Swift.Equatable {}
 extension FawryPaySDK.ReviewData.CodingKeys : Swift.Hashable {}
 extension FawryPaySDK.ReviewData.CodingKeys : Swift.RawRepresentable {}
+extension FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys : Swift.Equatable {}
+extension FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys : Swift.Hashable {}
+extension FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys : Swift.RawRepresentable {}
 extension FawryPaySDK.AdminFees.CodingKeys : Swift.Equatable {}
 extension FawryPaySDK.AdminFees.CodingKeys : Swift.Hashable {}
 extension FawryPaySDK.AdminFees.CodingKeys : Swift.RawRepresentable {}
@@ -1395,6 +1504,9 @@ extension FawryPaySDK.SectionType : Swift.Hashable {}
 extension FawryPaySDK.TenureInstallmentPlans.CodingKeys : Swift.Equatable {}
 extension FawryPaySDK.TenureInstallmentPlans.CodingKeys : Swift.Hashable {}
 extension FawryPaySDK.TenureInstallmentPlans.CodingKeys : Swift.RawRepresentable {}
+extension FawryPaySDK.AmanInstallmentPlan.CodingKeys : Swift.Equatable {}
+extension FawryPaySDK.AmanInstallmentPlan.CodingKeys : Swift.Hashable {}
+extension FawryPaySDK.AmanInstallmentPlan.CodingKeys : Swift.RawRepresentable {}
 extension FawryPaySDK.SDKMode : Swift.Equatable {}
 extension FawryPaySDK.SDKMode : Swift.Hashable {}
 extension FawryPaySDK.SDKMode : Swift.RawRepresentable {}
@@ -1419,3 +1531,6 @@ extension FawryPaySDK.SendOTPResponse.CodingKeys : Swift.RawRepresentable {}
 extension FawryPaySDK.ServiceTypeCode : Swift.Equatable {}
 extension FawryPaySDK.ServiceTypeCode : Swift.Hashable {}
 extension FawryPaySDK.ServiceTypeCode : Swift.RawRepresentable {}
+extension FawryPaySDK.AmanOtpResponse.CodingKeys : Swift.Equatable {}
+extension FawryPaySDK.AmanOtpResponse.CodingKeys : Swift.Hashable {}
+extension FawryPaySDK.AmanOtpResponse.CodingKeys : Swift.RawRepresentable {}

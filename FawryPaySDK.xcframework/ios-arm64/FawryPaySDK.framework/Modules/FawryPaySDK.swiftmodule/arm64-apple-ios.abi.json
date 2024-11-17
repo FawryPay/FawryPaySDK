@@ -659,6 +659,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3909,6 +3919,33 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3933,6 +3970,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FawryPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -5266,6 +5313,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5273,6 +5330,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK"
       },
       {
         "kind": "Import",
@@ -5300,6 +5374,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK"
       },
       {
         "kind": "Import",
@@ -6214,6 +6305,16 @@
         "printedName": "RxSwift",
         "declKind": "Import",
         "moduleName": "FawryPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -9190,6 +9291,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -9794,6 +9905,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK"
       },
       {
         "kind": "Import",
@@ -10656,6 +10784,590 @@
         "moduleName": "FawryPaySDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AmanPlansResponse",
+        "printedName": "AmanPlansResponse",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "CodingKeys",
+            "printedName": "CodingKeys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "requestedAmount",
+                "printedName": "requestedAmount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.AmanPlansResponse.CodingKeys.Type) -> FawryPaySDK.AmanPlansResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys",
+                            "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO15requestedAmountyA2EmF",
+                "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO15requestedAmountyA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Var",
+                "name": "totalAmount",
+                "printedName": "totalAmount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.AmanPlansResponse.CodingKeys.Type) -> FawryPaySDK.AmanPlansResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys",
+                            "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO11totalAmountyA2EmF",
+                "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO11totalAmountyA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Var",
+                "name": "installmentPlans",
+                "printedName": "installmentPlans",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.AmanPlansResponse.CodingKeys.Type) -> FawryPaySDK.AmanPlansResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys",
+                            "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO011installmentE0yA2EmF",
+                "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO011installmentE0yA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Var",
+                "name": "orderReferenceNumber",
+                "printedName": "orderReferenceNumber",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.AmanPlansResponse.CodingKeys.Type) -> FawryPaySDK.AmanPlansResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys",
+                            "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO20orderReferenceNumberyA2EmF",
+                "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO20orderReferenceNumberyA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO8rawValueAESgSS_tcfc",
+                "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO8rawValueAESgSS_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO8rawValueSSvp",
+                "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO8rawValueSSvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO8rawValueSSvg",
+                    "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO8rawValueSSvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stringValue",
+                "printedName": "stringValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO11stringValueSSvp",
+                "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO11stringValueSSvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO11stringValueSSvg",
+                    "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO11stringValueSSvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(stringValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO11stringValueAESgSS_tcfc",
+                "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO11stringValueAESgSS_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "intValue",
+                "printedName": "intValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO8intValueSiSgvp",
+                "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO8intValueSiSgvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO8intValueSiSgvg",
+                    "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO8intValueSiSgvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(intValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO8intValueAESgSi_tcfc",
+                "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO8intValueAESgSi_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11FawryPaySDK17AmanPlansResponseC10CodingKeysO",
+            "mangledName": "$s11FawryPaySDK17AmanPlansResponseC10CodingKeysO",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CodingKey",
+                "printedName": "CodingKey",
+                "usr": "s:s9CodingKeyP",
+                "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AmanPlansResponse",
+                "printedName": "FawryPaySDK.AmanPlansResponse",
+                "usr": "s:11FawryPaySDK17AmanPlansResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK17AmanPlansResponseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FawryPaySDK17AmanPlansResponseC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FawryPaySDK17AmanPlansResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FawryPaySDK17AmanPlansResponseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11FawryPaySDK17AmanPlansResponseC",
+        "mangledName": "$s11FawryPaySDK17AmanPlansResponseC",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -12056,6 +12768,149 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FawryPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LaunchCheckoutModel",
+        "printedName": "LaunchCheckoutModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(scheme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LaunchCheckoutModel",
+                "printedName": "FawryPaySDK.LaunchCheckoutModel",
+                "usr": "s:11FawryPaySDK19LaunchCheckoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK19LaunchCheckoutModelC6schemeACSSSg_tcfc",
+            "mangledName": "$s11FawryPaySDK19LaunchCheckoutModelC6schemeACSSSg_tcfc",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LaunchCheckoutModel",
+                "printedName": "FawryPaySDK.LaunchCheckoutModel",
+                "usr": "s:11FawryPaySDK19LaunchCheckoutModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK19LaunchCheckoutModelC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FawryPaySDK19LaunchCheckoutModelC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FawryPaySDK19LaunchCheckoutModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FawryPaySDK19LaunchCheckoutModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11FawryPaySDK19LaunchCheckoutModelC",
+        "mangledName": "$s11FawryPaySDK19LaunchCheckoutModelC",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -13806,6 +14661,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK"
       },
       {
         "kind": "Import",
@@ -16524,6 +17396,16 @@
       },
       {
         "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -16883,6 +17765,16 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "FawryPaySDK",
         "declAttributes": [
@@ -23010,6 +23902,32 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "handleCheckoutURL",
+            "printedName": "handleCheckoutURL(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FawryPaySDK15FrameworkHelperC17handleCheckoutURL3urly10Foundation0H0V_tF",
+            "mangledName": "$s11FawryPaySDK15FrameworkHelperC17handleCheckoutURL3urly10Foundation0H0V_tF",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -24737,6 +25655,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK"
       },
       {
         "kind": "Import",
@@ -27896,6 +28831,617 @@
         "moduleName": "FawryPaySDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetAmanInstallmentPlansResponse",
+        "printedName": "GetAmanInstallmentPlansResponse",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "CodingKeys",
+            "printedName": "CodingKeys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "fawryReferenceNumber",
+                "printedName": "fawryReferenceNumber",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys.Type) -> FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys",
+                            "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO20fawryReferenceNumberyA2EmF",
+                "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO20fawryReferenceNumberyA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Var",
+                "name": "installmentPlans",
+                "printedName": "installmentPlans",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys.Type) -> FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys",
+                            "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO011installmentG0yA2EmF",
+                "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO011installmentG0yA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8rawValueAESgSS_tcfc",
+                "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8rawValueAESgSS_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8rawValueSSvp",
+                "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8rawValueSSvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8rawValueSSvg",
+                    "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8rawValueSSvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stringValue",
+                "printedName": "stringValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO11stringValueSSvp",
+                "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO11stringValueSSvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO11stringValueSSvg",
+                    "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO11stringValueSSvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(stringValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO11stringValueAESgSS_tcfc",
+                "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO11stringValueAESgSS_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "intValue",
+                "printedName": "intValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8intValueSiSgvp",
+                "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8intValueSiSgvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8intValueSiSgvg",
+                    "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8intValueSiSgvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(intValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8intValueAESgSi_tcfc",
+                "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO8intValueAESgSi_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO",
+            "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC10CodingKeysO",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CodingKey",
+                "printedName": "CodingKey",
+                "usr": "s:s9CodingKeyP",
+                "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetAmanInstallmentPlansResponse",
+                "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse",
+                "usr": "c:@M@FawryPaySDK@objc(cs)GetAmanInstallmentPlansResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetAmanInstallmentPlansResponse",
+                "printedName": "FawryPaySDK.GetAmanInstallmentPlansResponse",
+                "usr": "c:@M@FawryPaySDK@objc(cs)GetAmanInstallmentPlansResponse"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FawryPaySDK@objc(cs)GetAmanInstallmentPlansResponse(im)init",
+            "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseCACycfc",
+            "moduleName": "FawryPaySDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FawryPaySDK31GetAmanInstallmentPlansResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FawryPaySDK@objc(cs)GetAmanInstallmentPlansResponse",
+        "mangledName": "$s11FawryPaySDK31GetAmanInstallmentPlansResponseC",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          }
         ]
       },
       {
@@ -33022,6 +34568,80 @@
             "moduleName": "FawryPaySDK"
           },
           {
+            "kind": "Var",
+            "name": "myFawry",
+            "printedName": "myFawry",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FawryPaySDK.PaymentMethod.Type) -> FawryPaySDK.PaymentMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMethod",
+                    "printedName": "FawryPaySDK.PaymentMethod",
+                    "usr": "s:11FawryPaySDK13PaymentMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FawryPaySDK.PaymentMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentMethod",
+                        "printedName": "FawryPaySDK.PaymentMethod",
+                        "usr": "s:11FawryPaySDK13PaymentMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FawryPaySDK13PaymentMethodO02myA0yA2CmF",
+            "mangledName": "$s11FawryPaySDK13PaymentMethodO02myA0yA2CmF",
+            "moduleName": "FawryPaySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "aman",
+            "printedName": "aman",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FawryPaySDK.PaymentMethod.Type) -> FawryPaySDK.PaymentMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMethod",
+                    "printedName": "FawryPaySDK.PaymentMethod",
+                    "usr": "s:11FawryPaySDK13PaymentMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FawryPaySDK.PaymentMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentMethod",
+                        "printedName": "FawryPaySDK.PaymentMethod",
+                        "usr": "s:11FawryPaySDK13PaymentMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11FawryPaySDK13PaymentMethodO4amanyA2CmF",
+            "mangledName": "$s11FawryPaySDK13PaymentMethodO4amanyA2CmF",
+            "moduleName": "FawryPaySDK"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -37997,6 +39617,36 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -39224,6 +40874,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CryptoKit",
         "printedName": "CryptoKit",
         "declKind": "Import",
@@ -39255,6 +40915,16 @@
         "printedName": "RxSwift",
         "declKind": "Import",
         "moduleName": "FawryPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -41370,6 +43040,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -43395,6 +45075,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Validator",
         "printedName": "Validator",
@@ -44838,6 +46528,594 @@
         "moduleName": "FawryPaySDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AmanInstallmentPlan",
+        "printedName": "AmanInstallmentPlan",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "CodingKeys",
+            "printedName": "CodingKeys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "months",
+                "printedName": "months",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.AmanInstallmentPlan.CodingKeys.Type) -> FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                        "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                            "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO6monthsyA2EmF",
+                "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO6monthsyA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Var",
+                "name": "adminFees",
+                "printedName": "adminFees",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.AmanInstallmentPlan.CodingKeys.Type) -> FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                        "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                            "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO9adminFeesyA2EmF",
+                "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO9adminFeesyA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Var",
+                "name": "monthlyAmount",
+                "printedName": "monthlyAmount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.AmanInstallmentPlan.CodingKeys.Type) -> FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                        "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                            "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO13monthlyAmountyA2EmF",
+                "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO13monthlyAmountyA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                        "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8rawValueAESgSS_tcfc",
+                "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8rawValueAESgSS_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8rawValueSSvp",
+                "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8rawValueSSvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8rawValueSSvg",
+                    "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8rawValueSSvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stringValue",
+                "printedName": "stringValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO11stringValueSSvp",
+                "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO11stringValueSSvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO11stringValueSSvg",
+                    "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO11stringValueSSvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(stringValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                        "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO11stringValueAESgSS_tcfc",
+                "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO11stringValueAESgSS_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "intValue",
+                "printedName": "intValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8intValueSiSgvp",
+                "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8intValueSiSgvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8intValueSiSgvg",
+                    "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8intValueSiSgvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(intValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanInstallmentPlan.CodingKeys",
+                        "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8intValueAESgSi_tcfc",
+                "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO8intValueAESgSi_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO",
+            "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC10CodingKeysO",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CodingKey",
+                "printedName": "CodingKey",
+                "usr": "s:s9CodingKeyP",
+                "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AmanInstallmentPlan",
+                "printedName": "FawryPaySDK.AmanInstallmentPlan",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK19AmanInstallmentPlanC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AmanInstallmentPlan",
+                "printedName": "FawryPaySDK.AmanInstallmentPlan",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AmanInstallmentPlan",
+                "printedName": "FawryPaySDK.AmanInstallmentPlan",
+                "usr": "s:11FawryPaySDK19AmanInstallmentPlanC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FawryPaySDK19AmanInstallmentPlanC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC2eeoiySbAC_ACtFZ",
+            "moduleName": "FawryPaySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FawryPaySDK19AmanInstallmentPlanC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11FawryPaySDK19AmanInstallmentPlanC",
+        "mangledName": "$s11FawryPaySDK19AmanInstallmentPlanC",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
         ]
       },
       {
@@ -46293,6 +48571,16 @@
         "printedName": "RxSwift",
         "declKind": "Import",
         "moduleName": "FawryPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -48967,7 +51255,8 @@
             "moduleName": "FawryPaySDK",
             "declAttributes": [
               "AccessControl",
-              "Required"
+              "Required",
+              "RawDocComment"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -49002,7 +51291,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(customer:merchant:chargeItems:signature:allowVoucher:paymentWithCardToken:paymentMethod:externalPaymentMethod:apiPath:)",
+            "printedName": "init(customer:merchant:chargeItems:signature:allowVoucher:paymentWithCardToken:paymentMethod:externalPaymentMethod:apiPath:checkoutModel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -49138,11 +51427,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FawryPaySDK.LaunchCheckoutModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LaunchCheckoutModel",
+                    "printedName": "FawryPaySDK.LaunchCheckoutModel",
+                    "usr": "s:11FawryPaySDK19LaunchCheckoutModelC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11FawryPaySDK0A11LaunchModelC8customer8merchant11chargeItems9signature12allowVoucher20paymentWithCardToken0M6Method015externalPaymentQ07apiPathAcA0d8CustomerE0CSg_AA0d8MerchantE0CSgSayAA06Chargei6ParamsE0CGSgSSSgS2bSgAA0s1_Q0OSayAA0S7MethodsCGSgAWtcfc",
-            "mangledName": "$s11FawryPaySDK0A11LaunchModelC8customer8merchant11chargeItems9signature12allowVoucher20paymentWithCardToken0M6Method015externalPaymentQ07apiPathAcA0d8CustomerE0CSg_AA0d8MerchantE0CSgSayAA06Chargei6ParamsE0CGSgSSSgS2bSgAA0s1_Q0OSayAA0S7MethodsCGSgAWtcfc",
+            "usr": "s:11FawryPaySDK0A11LaunchModelC8customer8merchant11chargeItems9signature12allowVoucher20paymentWithCardToken0M6Method015externalPaymentQ07apiPath08checkoutE0AcA0d8CustomerE0CSg_AA0d8MerchantE0CSgSayAA06Chargei6ParamsE0CGSgSSSgS2bSgAA0s1_Q0OSayAA0S7MethodsCGSgAxA0d8CheckoutE0CSgtcfc",
+            "mangledName": "$s11FawryPaySDK0A11LaunchModelC8customer8merchant11chargeItems9signature12allowVoucher20paymentWithCardToken0M6Method015externalPaymentQ07apiPath08checkoutE0AcA0d8CustomerE0CSg_AA0d8MerchantE0CSgSayAA06Chargei6ParamsE0CGSgSSSgS2bSgAA0s1_Q0OSayAA0S7MethodsCGSgAxA0d8CheckoutE0CSgtcfc",
             "moduleName": "FawryPaySDK",
             "declAttributes": [
               "AccessControl"
@@ -51432,8 +53736,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -51763,8 +54066,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -52217,6 +54519,552 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "AmanOtpResponse",
+        "printedName": "AmanOtpResponse",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "CodingKeys",
+            "printedName": "CodingKeys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "resultId",
+                "printedName": "resultId",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.AmanOtpResponse.CodingKeys.Type) -> FawryPaySDK.AmanOtpResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys",
+                            "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO8resultIdyA2EmF",
+                "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO8resultIdyA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Var",
+                "name": "resultMessage",
+                "printedName": "resultMessage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.AmanOtpResponse.CodingKeys.Type) -> FawryPaySDK.AmanOtpResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys",
+                            "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO13resultMessageyA2EmF",
+                "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO13resultMessageyA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Var",
+                "name": "comment",
+                "printedName": "comment",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FawryPaySDK.AmanOtpResponse.CodingKeys.Type) -> FawryPaySDK.AmanOtpResponse.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys",
+                            "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO7commentyA2EmF",
+                "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO7commentyA2EmF",
+                "moduleName": "FawryPaySDK"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO8rawValueAESgSS_tcfc",
+                "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO8rawValueAESgSS_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO8rawValueSSvp",
+                "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO8rawValueSSvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO8rawValueSSvg",
+                    "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO8rawValueSSvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stringValue",
+                "printedName": "stringValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO11stringValueSSvp",
+                "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO11stringValueSSvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO11stringValueSSvg",
+                    "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO11stringValueSSvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(stringValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO11stringValueAESgSS_tcfc",
+                "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO11stringValueAESgSS_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "intValue",
+                "printedName": "intValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO8intValueSiSgvp",
+                "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO8intValueSiSgvp",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO8intValueSiSgvg",
+                    "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO8intValueSiSgvg",
+                    "moduleName": "FawryPaySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(intValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "FawryPaySDK.AmanOtpResponse.CodingKeys",
+                        "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO8intValueAESgSi_tcfc",
+                "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO8intValueAESgSi_tcfc",
+                "moduleName": "FawryPaySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11FawryPaySDK15AmanOtpResponseC10CodingKeysO",
+            "mangledName": "$s11FawryPaySDK15AmanOtpResponseC10CodingKeysO",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CodingKey",
+                "printedName": "CodingKey",
+                "usr": "s:s9CodingKeyP",
+                "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AmanOtpResponse",
+                "printedName": "FawryPaySDK.AmanOtpResponse",
+                "usr": "s:11FawryPaySDK15AmanOtpResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK15AmanOtpResponseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FawryPaySDK15AmanOtpResponseC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FawryPaySDK15AmanOtpResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FawryPaySDK15AmanOtpResponseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11FawryPaySDK15AmanOtpResponseC",
+        "mangledName": "$s11FawryPaySDK15AmanOtpResponseC",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -52247,6 +55095,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FawryPaySDK",
         "declAttributes": [
@@ -52289,6 +55147,40 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "FawryPaySDK"
       },
       {
         "kind": "Import",
@@ -55494,6 +58386,27 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentChargeResponse",
+                "printedName": "FawryPaySDK.PaymentChargeResponse",
+                "usr": "s:11FawryPaySDK21PaymentChargeResponseC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK21PaymentChargeResponseCACycfc",
+            "mangledName": "$s11FawryPaySDK21PaymentChargeResponseCACycfc",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
@@ -59836,14 +62749,14 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/SouhoolaBaseChargeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 543,
+      "offset": 564,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/SouhoolaBaseChargeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 566,
+      "offset": 587,
       "length": 2,
       "value": "\"\""
     },
@@ -60578,30 +63491,51 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "Array",
-      "offset": 3160,
+      "offset": 3311,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3187,
+      "offset": 3338,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3226,
+      "offset": 3377,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Payment\/Payment Details\/View Models\/PaymentDetailsViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 4337,
+      "offset": 4488,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanReviewScreen\/ViewModel\/AmanReviewTransactionsDataViewModel.swift",
+      "kind": "Array",
+      "offset": 425,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanReviewScreen\/ViewModel\/AmanReviewTransactionsDataViewModel.swift",
+      "kind": "Array",
+      "offset": 488,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanReviewScreen\/ViewModel\/AmanReviewTransactionsDataViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/External Libraries\/Toast\/Toast.swift",
@@ -60975,6 +63909,20 @@
       "value": "\"transactionId\""
     },
     {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanInstallmentPlans\/Controller\/Cell\/AmanViewModelCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 297,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanInstallmentPlans\/Controller\/Cell\/AmanViewModelCell.swift",
+      "kind": "Array",
+      "offset": 450,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Launch Model\/SDKInitializeModel.swift",
       "kind": "BooleanLiteral",
       "offset": 704,
@@ -61085,6 +64033,34 @@
       "offset": 4089,
       "length": 13,
       "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Aman Models \/AmanPlansResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 397,
+      "length": 17,
+      "value": "\"requestedAmount\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Aman Models \/AmanPlansResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 13,
+      "value": "\"totalAmount\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Aman Models \/AmanPlansResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 18,
+      "value": "\"installmentPlans\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Aman Models \/AmanPlansResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 543,
+      "length": 22,
+      "value": "\"orderReferenceNumber\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/GetInstallmentPlans\/RequestParams\/Forsa\/ForsaInstallmentPlanModel.swift",
@@ -61290,6 +64266,34 @@
       "value": "\"responseDesc\""
     },
     {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/GetCustomerStatus\/ViewModel\/GetAmanInstallmentPlansViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 232,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/GetCustomerStatus\/ViewModel\/GetAmanInstallmentPlansViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 575,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/GetCustomerStatus\/ViewModel\/GetAmanInstallmentPlansViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 611,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/GetCustomerStatus\/ViewModel\/GetAmanInstallmentPlansViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 641,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Helper Class\/CustomViews\/OTPFieldView.swift",
       "kind": "IntegerLiteral",
       "offset": 396,
@@ -61395,6 +64399,83 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanOTP\/ViewModel\/AmanOTPViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanOTP\/ViewModel\/AmanOTPViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 386,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanOTP\/ViewModel\/AmanOTPViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 429,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanOTP\/ViewModel\/AmanOTPViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 471,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanOTP\/ViewModel\/AmanOTPViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 601,
+      "length": 41,
+      "value": "\"%.1f \""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanOTP\/ViewModel\/AmanOTPViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 5,
+      "value": "\"egp\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanOTP\/ViewModel\/AmanOTPViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 641,
+      "length": 12,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanOTP\/ViewModel\/AmanOTPViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 707,
+      "length": 41,
+      "value": "\"%.1f \""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanOTP\/ViewModel\/AmanOTPViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 5,
+      "value": "\"egp\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanOTP\/ViewModel\/AmanOTPViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 747,
+      "length": 12,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanOTP\/ViewModel\/AmanOTPViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1045,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Custom Views\/Add Card Details\/AddCardDetailsView.swift",
       "kind": "BooleanLiteral",
       "offset": 4285,
@@ -61404,21 +64485,315 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
       "kind": "StringLiteral",
-      "offset": 480,
-      "length": 31,
-      "value": "\"ALLOW_API_PAYMENT_WITHOUT_3DS\""
+      "offset": 1353,
+      "length": 38,
+      "value": "\"ENABLE_PROMO_CHECK_USING_MERCHANT_ID\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
       "kind": "StringLiteral",
-      "offset": 555,
-      "length": 31,
-      "value": "\"MERCHANT_NOTIFICATION_VERSION\""
+      "offset": 1424,
+      "length": 18,
+      "value": "\"COLLECT_AT_STORE\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 1479,
+      "length": 22,
+      "value": "\"RESERVATION_CODE_GEN\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 1538,
+      "length": 22,
+      "value": "\"PLUGIN_DISPLAY_ITEMS\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 1588,
+      "length": 13,
+      "value": "\"SKIPP_EMAIL\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 1640,
+      "length": 24,
+      "value": "\"MobileAndNameInBooking\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 1714,
+      "length": 35,
+      "value": "\"PLUGIN_HASH_INCLUDE_ITEM_QUANTITY\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 1779,
+      "length": 15,
+      "value": "\"ENABLE_REFUND\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 1843,
+      "length": 34,
+      "value": "\"PLUGIN_REQUEST_SIGNATURE_ENABLED\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 1911,
+      "length": 19,
+      "value": "\"BILL_EXPIRY_HOURS\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 1964,
+      "length": 19,
+      "value": "\"CAF_VAT_PERCETAGE\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 2010,
+      "length": 12,
+      "value": "\"CATEGORIES\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 2064,
+      "length": 27,
+      "value": "\"ALLOW_CARD_PAYMENT_ON_POS\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 2130,
+      "length": 24,
+      "value": "\"DISABLE_ALL_DUBLICATES\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 2190,
+      "length": 21,
+      "value": "\"DISABLE_3DS_REQUEST\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 2245,
+      "length": 19,
+      "value": "\"EDIT_MOBILE_EMAIL\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 2289,
+      "length": 10,
+      "value": "\"EXTERNAL\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 2335,
+      "length": 21,
+      "value": "\"ENABLE_BILL_PAYMENT\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 18,
+      "value": "\"PROMO_PARTNER_ID\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 2442,
+      "length": 20,
+      "value": "\"LOYALTY_PROGRAM_ID\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 2505,
+      "length": 24,
+      "value": "\"3DSECI_ACCEPTED_VALUES\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 2564,
+      "length": 20,
+      "value": "\"SKIPP_MOBILE_EMAIL\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 5704,
+      "length": 38,
+      "value": "\"ENABLE_PROMO_CHECK_USING_MERCHANT_ID\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 5773,
+      "length": 18,
+      "value": "\"COLLECT_AT_STORE\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 5826,
+      "length": 22,
+      "value": "\"RESERVATION_CODE_GEN\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 5883,
+      "length": 22,
+      "value": "\"PLUGIN_DISPLAY_ITEMS\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 5932,
+      "length": 13,
+      "value": "\"SKIPP_EMAIL\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 5984,
+      "length": 24,
+      "value": "\"MobileAndNameInBooking\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6054,
+      "length": 35,
+      "value": "\"PLUGIN_HASH_INCLUDE_ITEM_QUANTITY\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6118,
+      "length": 15,
+      "value": "\"ENABLE_REFUND\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6179,
+      "length": 34,
+      "value": "\"PLUGIN_REQUEST_SIGNATURE_ENABLED\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6245,
+      "length": 19,
+      "value": "\"BILL_EXPIRY_HOURS\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6296,
+      "length": 19,
+      "value": "\"CAF_VAT_PERCETAGE\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6342,
+      "length": 12,
+      "value": "\"CATEGORIES\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6392,
+      "length": 27,
+      "value": "\"ALLOW_CARD_PAYMENT_ON_POS\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6456,
+      "length": 24,
+      "value": "\"DISABLE_ALL_DUBLICATES\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6514,
+      "length": 21,
+      "value": "\"DISABLE_3DS_REQUEST\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6567,
+      "length": 19,
+      "value": "\"EDIT_MOBILE_EMAIL\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6611,
+      "length": 10,
+      "value": "\"EXTERNAL\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6655,
+      "length": 21,
+      "value": "\"ENABLE_BILL_PAYMENT\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6707,
+      "length": 18,
+      "value": "\"PROMO_PARTNER_ID\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6758,
+      "length": 20,
+      "value": "\"LOYALTY_PROGRAM_ID\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6818,
+      "length": 24,
+      "value": "\"3DSECI_ACCEPTED_VALUES\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
+      "kind": "StringLiteral",
+      "offset": 6875,
+      "length": 20,
+      "value": "\"SKIPP_MOBILE_EMAIL\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/MerchantData.swift",
       "kind": "IntegerLiteral",
-      "offset": 799,
+      "offset": 7232,
       "length": 1,
       "value": "0"
     },
@@ -61453,14 +64828,14 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/BaseChargeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1669,
+      "offset": 1725,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/BaseChargeRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 1767,
+      "offset": 1823,
       "length": 5,
       "value": "false"
     },
@@ -61572,21 +64947,21 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/ForsaBaseChargeRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 491,
+      "offset": 500,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/ForsaBaseChargeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 653,
+      "offset": 746,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/ForsaBaseChargeRequest.swift",
       "kind": "StringLiteral",
-      "offset": 676,
+      "offset": 778,
       "length": 2,
       "value": "\"\""
     },
@@ -61673,6 +65048,20 @@
       "offset": 448,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/AmanBaseChargeRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 549,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/AmanBaseChargeRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/External Libraries\/MBRadioButtonPod\/BaseButton\/RadioCheckboxBaseButton.swift",
@@ -62970,6 +66359,20 @@
       "value": "\"fawrypay-api\/api\/payments\/init\""
     },
     {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/GetInstallmentPlans\/RequestParams\/Aman\/GetAmanInstallmentPlansResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 22,
+      "value": "\"fawryReferenceNumber\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/GetInstallmentPlans\/RequestParams\/Aman\/GetAmanInstallmentPlansResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 18,
+      "value": "\"installmentPlans\""
+    },
+    {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Payment\/Payment Details\/Views\/Payment Details Table Cells\/Breakups\/PaymentBreakupCellViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 335,
@@ -63378,112 +66781,126 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1884,
+      "offset": 1795,
+      "length": 9,
+      "value": "\"MYFAWRY\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1821,
+      "length": 6,
+      "value": "\"Aman\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1936,
       "length": 8,
       "value": "\"scanQR\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 1969,
       "length": 18,
       "value": "\"sendNotification\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1952,
+      "offset": 2004,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2106,
+      "offset": 2158,
       "length": 24,
       "value": "\"https:\/\/www.google.com\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2211,
+      "offset": 2263,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2290,
+      "offset": 2342,
       "length": 10,
       "value": "\"Merchant\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2326,
+      "offset": 2378,
       "length": 9,
       "value": "\"Address\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2365,
+      "offset": 2417,
       "length": 13,
       "value": "\"CardDetails\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2401,
+      "offset": 2453,
       "length": 6,
       "value": "\"Main\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2437,
+      "offset": 2489,
       "length": 13,
       "value": "\"CartDetails\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2477,
+      "offset": 2529,
       "length": 10,
       "value": "\"MyPoints\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2519,
+      "offset": 2571,
       "length": 15,
       "value": "\"CreateVoucher\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2570,
+      "offset": 2622,
       "length": 19,
       "value": "\"BNBLSeamLessFlows\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2660,
+      "offset": 2712,
       "length": 71,
       "value": "\"https:\/\/maps.googleapis.com\/maps\/api\/geocode\/json?latlng=%f,%f&key=%@\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2767,
+      "offset": 2819,
       "length": 126,
       "value": "\"https:\/\/maps.googleapis.com\/maps\/api\/place\/autocomplete\/json?input==%@&location=%@&radius=500&sensor=true&language=en&key=%@\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2955,
+      "offset": 3007,
       "length": 14,
       "value": "\"No_Shippment\""
     },
@@ -63666,6 +67083,76 @@
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Constants\/ValuConstants.swift",
       "kind": "StringLiteral",
       "offset": 178,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountType.swift",
+      "kind": "StringLiteral",
+      "offset": 590,
+      "length": 14,
+      "value": "\"acctTypeCode\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountType.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountType.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountType.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 15,
+      "value": "\"manageByFawry\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountType.swift",
+      "kind": "StringLiteral",
+      "offset": 741,
+      "length": 15,
+      "value": "\"pmtSchemeCode\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountType.swift",
+      "kind": "StringLiteral",
+      "offset": 795,
+      "length": 24,
+      "value": "\"primaryLangDescription\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountType.swift",
+      "kind": "StringLiteral",
+      "offset": 853,
+      "length": 19,
+      "value": "\"secondaryLangName\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountType.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 22,
+      "value": "\"threeDSecuredEnabled\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountType.swift",
+      "kind": "StringLiteral",
+      "offset": 954,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Constants\/AmanConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 153,
       "length": 10,
       "value": "\"language\""
     },
@@ -64165,6 +67652,27 @@
       "offset": 712,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Aman Models \/AmanInstallmentPlan.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 8,
+      "value": "\"months\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Aman Models \/AmanInstallmentPlan.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 11,
+      "value": "\"adminFees\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Aman Models \/AmanInstallmentPlan.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 15,
+      "value": "\"monthlyAmount\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Structs\/AppMessages.swift",
@@ -64874,6 +68382,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Launch Model\/FawryLaunchModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5554,
+      "length": 21,
+      "value": "\"launchCustomerModel\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Launch Model\/FawryLaunchModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5620,
+      "length": 21,
+      "value": "\"launchMerchantModel\""
+    },
+    {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/GetInstallmentPlans\/SendOTPData.swift",
       "kind": "StringLiteral",
       "offset": 277,
@@ -64974,63 +68496,84 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
       "kind": "StringLiteral",
-      "offset": 848,
+      "offset": 844,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
       "kind": "StringLiteral",
-      "offset": 885,
+      "offset": 881,
       "length": 16,
       "value": "\"shippingStatus\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
       "kind": "StringLiteral",
-      "offset": 932,
+      "offset": 928,
       "length": 16,
       "value": "\"paymentMethods\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
       "kind": "StringLiteral",
-      "offset": 1071,
+      "offset": 978,
+      "length": 19,
+      "value": "\"merchantDataModel\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
+      "kind": "StringLiteral",
+      "offset": 1025,
+      "length": 13,
+      "value": "\"accountType\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
+      "kind": "StringLiteral",
+      "offset": 1073,
       "length": 20,
       "value": "\"cyberSourceEnabled\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
       "kind": "StringLiteral",
-      "offset": 1118,
+      "offset": 1120,
       "length": 12,
       "value": "\"statusCode\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
       "kind": "StringLiteral",
-      "offset": 1164,
+      "offset": 1166,
       "length": 19,
       "value": "\"statusDescription\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
       "kind": "StringLiteral",
-      "offset": 1261,
+      "offset": 1214,
+      "length": 14,
+      "value": "\"accTypesInfo\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
+      "kind": "StringLiteral",
+      "offset": 1255,
       "length": 12,
       "value": "\"requestUID\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
       "kind": "StringLiteral",
-      "offset": 1301,
+      "offset": 1295,
       "length": 13,
       "value": "\"asyncReqUID\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Merchant\/Merchant Details\/Models\/Merchant\/Merchant.swift",
       "kind": "StringLiteral",
-      "offset": 1351,
+      "offset": 1345,
       "length": 23,
       "value": "\"accountTypeDataModels\""
     },
@@ -65058,16 +68601,37 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19564,
+      "offset": 19625,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/FawryPaySDK\/Payment\/Payment Details\/View\/Controllers\/Payment Details\/PaymentDetailsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19588,
+      "offset": 19649,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Aman Models \/AmanOtpResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 10,
+      "value": "\"resultId\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Aman Models \/AmanOtpResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 15,
+      "value": "\"resultMessage\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Domain\/Entites\/Aman Models \/AmanOtpResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 9,
+      "value": "\"comment\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Forsa\/ForsaInstallmentPlans\/Controllers\/Cells\/ForsaCollectionViewCells\/ForsaInstallmentPlanCellViewModel.swift",
@@ -65098,9 +68662,72 @@
       "value": "\"discountAmount\""
     },
     {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountTypeInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 8,
+      "value": "\"FPCARD\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountTypeInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 12,
+      "value": "\"BEANOSCard\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountTypeInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 10,
+      "value": "\"BMISCARD\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountTypeInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 4,
+      "value": "\"MC\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountTypeInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 11,
+      "value": "\"MEEZACARD\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Merchant\/Merchant Details\/Models\/Merchant\/AccountTypeInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 4,
+      "value": "\"VC\""
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanInstallmentPlans\/ViewModel\/AmanInstallmentPlansViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 201,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanInstallmentPlans\/ViewModel\/AmanInstallmentPlansViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 232,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Presentation\/Aman\/AmanInstallmentPlans\/ViewModel\/AmanInstallmentPlansViewModel.swift",
+      "kind": "Array",
+      "offset": 409,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld\/FawryPaySDK\/Core\/Payment\/Payment Details\/Models\/Payment Method Response\/PaymentChargeResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3570,
+      "offset": 3591,
       "length": 6,
       "value": "\"type\""
     },
