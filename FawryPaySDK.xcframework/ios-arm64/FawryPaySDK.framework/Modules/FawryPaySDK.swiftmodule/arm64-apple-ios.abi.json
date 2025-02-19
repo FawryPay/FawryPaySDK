@@ -63500,20 +63500,20 @@
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Payment\/Payment Details\/Constants\/PaymentAppConstants.swift",
       "kind": "StringLiteral",
       "offset": 2479,
-      "length": 24,
-      "value": "\"https:\/\/www.google.com\""
+      "length": 25,
+      "value": "\"https:\/\/www.atfawry.com\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Payment\/Payment Details\/Constants\/PaymentAppConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2535,
+      "offset": 2536,
       "length": 9,
       "value": "\"SDK_IOS\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Payment\/Payment Details\/Constants\/PaymentAppConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2585,
+      "offset": 2586,
       "length": 12,
       "value": "\"NEW_PLUGIN\""
     },
@@ -63982,42 +63982,42 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1184,
+      "offset": 1333,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 1204,
+      "offset": 1353,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1231,
+      "offset": 1380,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "StringLiteral",
-      "offset": 1249,
+      "offset": 1398,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1450,
+      "offset": 1599,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Card Manager\/Add Card\/Views\/Add Card\/AddCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1485,
+      "offset": 1634,
       "length": 5,
       "value": "false"
     },
@@ -66965,90 +66965,90 @@
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
       "offset": 2158,
-      "length": 24,
-      "value": "\"https:\/\/www.google.com\""
+      "length": 25,
+      "value": "\"https:\/\/www.atfawry.com\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2263,
+      "offset": 2264,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2342,
+      "offset": 2343,
       "length": 10,
       "value": "\"Merchant\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2378,
+      "offset": 2379,
       "length": 9,
       "value": "\"Address\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2417,
+      "offset": 2418,
       "length": 13,
       "value": "\"CardDetails\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2453,
+      "offset": 2454,
       "length": 6,
       "value": "\"Main\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2489,
+      "offset": 2490,
       "length": 13,
       "value": "\"CartDetails\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2529,
+      "offset": 2530,
       "length": 10,
       "value": "\"MyPoints\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2571,
+      "offset": 2572,
       "length": 15,
       "value": "\"CreateVoucher\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2622,
+      "offset": 2623,
       "length": 19,
       "value": "\"BNBLSeamLessFlows\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2712,
+      "offset": 2713,
       "length": 71,
       "value": "\"https:\/\/maps.googleapis.com\/maps\/api\/geocode\/json?latlng=%f,%f&key=%@\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2819,
+      "offset": 2820,
       "length": 126,
       "value": "\"https:\/\/maps.googleapis.com\/maps\/api\/place\/autocomplete\/json?input==%@&location=%@&radius=500&sensor=true&language=en&key=%@\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/Core\/Constants\/FawryFrameworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3007,
+      "offset": 3008,
       "length": 14,
       "value": "\"No_Shippment\""
     },
