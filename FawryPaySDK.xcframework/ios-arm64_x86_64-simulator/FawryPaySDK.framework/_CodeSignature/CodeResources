@@ -532,6 +532,10 @@
 		<data>
 		c+sr+dAu8SFOENSd1rLnmYmJPrs=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		0RESd+++ZxZWQhIEMSOOvP7phYs=
+		</data>
 		<key>QRCodeTableViewCell.nib</key>
 		<data>
 		GRLUdQkZCgh4qAqOVq8+PTAjsDE=
@@ -1848,6 +1852,13 @@
 			<key>hash2</key>
 			<data>
 			mM8cZ6LCjIW3M6qvU3OX1dyS0FFcBSjVO1htO2jTlQ4=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pwgfFQbJDo5nMQDlwWHnZbi3piREbiC9S9bvrKgICLg=
 			</data>
 		</dict>
 		<key>QRCodeTableViewCell.nib</key>
