@@ -277,7 +277,14 @@ public class ChargeItemsParamsModel : Swift.Codable {
   public var variantCode: Swift.String?
   public var reservationCodes: [Swift.String]?
   public init(itemId: Swift.String, charge_description: Swift.String? = nil, price: Swift.Double, quantity: Swift.Int)
+  public init(itemId: Swift.String, charge_description: Swift.String? = nil, price: Swift.Double, quantity: Swift.Int, account: [FawryPaySDK.Accounts]? = nil)
   public init(itemId: Swift.String, charge_description: Swift.String? = nil, price: Swift.Double, quantity: Swift.Int, variantCode: Swift.String, reservationCodes: [Swift.String])
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class Accounts : Swift.Codable {
+  public init(accountCode: Swift.String?, amount: Swift.Double?)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws

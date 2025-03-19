@@ -10419,6 +10419,83 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(itemId:charge_description:price:quantity:account:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChargeItemsParamsModel",
+                "printedName": "FawryPaySDK.ChargeItemsParamsModel",
+                "usr": "s:11FawryPaySDK22ChargeItemsParamsModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[FawryPaySDK.Accounts]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FawryPaySDK.Accounts]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Accounts",
+                        "printedName": "FawryPaySDK.Accounts",
+                        "usr": "s:11FawryPaySDK8AccountsC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK22ChargeItemsParamsModelC6itemId18charge_description5price8quantity7accountACSS_SSSgSdSiSayAA8AccountsCGSgtcfc",
+            "mangledName": "$s11FawryPaySDK22ChargeItemsParamsModelC6itemId18charge_description5price8quantity7accountACSS_SSSgSdSiSayAA8AccountsCGSgtcfc",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(itemId:charge_description:price:quantity:variantCode:reservationCodes:)",
             "children": [
               {
@@ -10548,6 +10625,154 @@
         "declKind": "Class",
         "usr": "s:11FawryPaySDK22ChargeItemsParamsModelC",
         "mangledName": "$s11FawryPaySDK22ChargeItemsParamsModelC",
+        "moduleName": "FawryPaySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Accounts",
+        "printedName": "Accounts",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(accountCode:amount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Accounts",
+                "printedName": "FawryPaySDK.Accounts",
+                "usr": "s:11FawryPaySDK8AccountsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK8AccountsC11accountCode6amountACSSSg_SdSgtcfc",
+            "mangledName": "$s11FawryPaySDK8AccountsC11accountCode6amountACSSSg_SdSgtcfc",
+            "moduleName": "FawryPaySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Accounts",
+                "printedName": "FawryPaySDK.Accounts",
+                "usr": "s:11FawryPaySDK8AccountsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FawryPaySDK8AccountsC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FawryPaySDK8AccountsC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FawryPaySDK8AccountsC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FawryPaySDK8AccountsC6encode2toys7Encoder_p_tKF",
+            "moduleName": "FawryPaySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11FawryPaySDK8AccountsC",
+        "mangledName": "$s11FawryPaySDK8AccountsC",
         "moduleName": "FawryPaySDK",
         "declAttributes": [
           "AccessControl",
@@ -64157,28 +64382,28 @@
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/FawryPaySDK\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "StringLiteral",
-      "offset": 857,
+      "offset": 886,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/FawryPaySDK\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "FloatLiteral",
-      "offset": 3061,
+      "offset": 4181,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/FawryPaySDK\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "FloatLiteral",
-      "offset": 3210,
+      "offset": 4330,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sameh\/Documents\/FawryPayOld 2\/FawryPaySDK\/FawryPaySDK\/DataLayers\/Charge Card Payment\/ChargePaymentParamsModel.swift",
       "kind": "StringLiteral",
-      "offset": 4089,
+      "offset": 5209,
       "length": 13,
       "value": "\"description\""
     },
