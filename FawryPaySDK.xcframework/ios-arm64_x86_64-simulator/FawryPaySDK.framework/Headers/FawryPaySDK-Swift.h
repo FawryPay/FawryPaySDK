@@ -280,7 +280,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVFoundation;
 @import CoreFoundation;
+@import CoreGraphics;
+@import CoreMedia;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
@@ -305,14 +308,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC11FawryPaySDK7AVLInfo")
+@interface AVLInfo : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSString;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11FawryPaySDK18BaseViewController")
 @interface BaseViewController : UIViewController
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
 @property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -328,6 +342,12 @@ SWIFT_CLASS("_TtC11FawryPaySDK21AddCardViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK11AmanManager")
+@interface AmanManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 @class UITouch;
 @class UIEvent;
@@ -349,12 +369,46 @@ SWIFT_CLASS("_TtC11FawryPaySDK27BaseComponentViewController")
 @end
 
 
+SWIFT_CLASS("_TtC11FawryPaySDK8BlurView")
+@interface BlurView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 SWIFT_CLASS("_TtC11FawryPaySDK24ChargePaymentParamsModel")
 @interface ChargePaymentParamsModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK10CornerView")
+@interface CornerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImage;
+
+SWIFT_CLASS("_TtC11FawryPaySDK10CreditCard")
+@interface CreditCard : NSObject
+@property (nonatomic, copy) NSString * _Nonnull number;
+@property (nonatomic, copy) NSString * _Nullable expiryMonth;
+@property (nonatomic, copy) NSString * _Nullable expiryYear;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic, strong) UIImage * _Nullable image;
+- (NSString * _Nullable)expiryForDisplay SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK17CreditCardManager")
+@interface CreditCardManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UIColor;
@@ -382,10 +436,37 @@ typedef SWIFT_ENUM(NSInteger, DisplayType, open) {
 };
 
 
+SWIFT_CLASS("_TtC11FawryPaySDK15E_WalletManager")
+@interface E_WalletManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK14FPPurchaseItem")
+@interface FPPurchaseItem : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK30FPValidateVoucherRequestParams")
+@interface FPValidateVoucherRequestParams : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC11FawryPaySDK10FawryError")
 @interface FawryError : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK20FawryPayByRefManager")
+@interface FawryPayByRefManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -401,21 +482,15 @@ SWIFT_CLASS("_TtC11FawryPaySDK12ForsaManager")
 @end
 
 
-SWIFT_CLASS("_TtC11FawryPaySDK15FrameworkHelper")
-@interface FrameworkHelper : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC11FawryPaySDK31GetAmanInstallmentPlansResponse")
-@interface GetAmanInstallmentPlansResponse : NSObject
+SWIFT_CLASS("_TtC11FawryPaySDK35GetSouhoolaInstallmentPlansResponse")
+@interface GetSouhoolaInstallmentPlansResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS("_TtC11FawryPaySDK35GetSouhoolaInstallmentPlansResponse")
-@interface GetSouhoolaInstallmentPlansResponse : NSObject
+SWIFT_CLASS("_TtC11FawryPaySDK31GetValuInstallmentPlansResponse")
+@interface GetValuInstallmentPlansResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -432,6 +507,12 @@ SWIFT_CLASS("_TtC11FawryPaySDK19LaunchCustomerModel")
 @interface LaunchCustomerModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK14LoyaltyManager")
+@interface LoyaltyManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -470,67 +551,14 @@ SWIFT_CLASS("_TtC11FawryPaySDK19OrderingPaySDKError")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class UIButton;
-@class UILabel;
 
-SWIFT_CLASS("_TtC11FawryPaySDK28PaymentDetailsViewController")
-@interface PaymentDetailsViewController : BaseViewController
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified buttonBaseView;
-@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified backgroundView;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified headerView;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified backButton;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelHeader;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified confirmPaymentButton;
-- (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (IBAction)backButtonAction:(id _Nonnull)sender;
-- (IBAction)confirmPaymentButtonAction:(id _Nullable)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-@interface PaymentDetailsViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITextFieldDelegate>
-- (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-
-@class UITableView;
-@class NSIndexPath;
-@class UITableViewCell;
-
-@interface PaymentDetailsViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-@end
-
-
-SWIFT_CLASS("_TtC11FawryPaySDK28PaymentReceiptViewController")
-@interface PaymentReceiptViewController : BaseViewController
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified doneButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified backBtn;
-- (void)viewDidLoad;
-- (IBAction)backButtonAction:(id _Nonnull)sender;
-- (IBAction)doneButtonAction:(id _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface PaymentReceiptViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS("_TtC11FawryPaySDK11PreviewView")
+@interface PreviewView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layerClass;)
++ (Class _Nonnull)layerClass SWIFT_WARN_UNUSED_RESULT;
+- (void)layoutSubviews;
 @end
 
 
@@ -570,28 +598,77 @@ SWIFT_PROTOCOL("_TtP11FawryPaySDK12RowViewModel_")
 - (NSString * _Nonnull)cellIdentifier SWIFT_WARN_UNUSED_RESULT;
 @end
 
+@protocol TestingImageDataSource;
+@class AVCaptureOutput;
+@class AVCaptureConnection;
 
-SWIFT_CLASS("_TtC11FawryPaySDK24SavedCardsViewController")
-@interface SavedCardsViewController : BaseViewController
-@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified backgroundView;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified headerView;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelHeader;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified backButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified addNewCardButton;
-- (void)viewDidLoad;
+SWIFT_CLASS("_TtC11FawryPaySDK22ScanBaseViewController")
+@interface ScanBaseViewController : UIViewController <AVCaptureVideoDataOutputSampleBufferDelegate>
+@property (nonatomic, weak) id <TestingImageDataSource> _Nullable testingImageDataSource;
+@property (nonatomic) double errorCorrectionDuration;
+@property (nonatomic) BOOL includeCardImage;
+@property (nonatomic) BOOL showDebugImageView;
+- (void)onScannedCardWithNumber:(NSString * _Nonnull)number expiryYear:(NSString * _Nullable)expiryYear expiryMonth:(NSString * _Nullable)expiryMonth scannedImage:(UIImage * _Nullable)scannedImage;
+- (void)showCardNumber:(NSString * _Nonnull)number expiry:(NSString * _Nullable)expiry;
++ (void)configureWithApiKey:(NSString * _Nullable)apiKey;
++ (BOOL)isCompatible SWIFT_WARN_UNUSED_RESULT;
++ (UIImage * _Nullable)cameraImage SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
 - (void)viewWillAppear:(BOOL)animated;
-- (IBAction)backButtonAction:(id _Nonnull)sender;
-- (IBAction)addNewCardButtonAction:(id _Nonnull)sender;
+- (void)viewDidLayoutSubviews;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class ScanViewController;
 
-@interface SavedCardsViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+SWIFT_PROTOCOL("_TtP11FawryPaySDK12ScanDelegate_")
+@protocol ScanDelegate
+- (void)userDidCancel:(ScanViewController * _Nonnull)scanViewController;
+- (void)userDidScanCard:(ScanViewController * _Nonnull)scanViewController creditCard:(CreditCard * _Nonnull)creditCard;
+@optional
+- (void)userDidScanQrCode:(ScanViewController * _Nonnull)scanViewController payload:(NSString * _Nonnull)payload;
+@required
+- (void)userDidSkip:(ScanViewController * _Nonnull)scanViewController;
+@end
+
+
+SWIFT_PROTOCOL("_TtP11FawryPaySDK21ScanStringsDataSource_")
+@protocol ScanStringsDataSource
+- (NSString * _Nonnull)scanCard SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)positionCard SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)backButton SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)skipButton SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIFont;
+@class NSNumber;
+
+SWIFT_CLASS("_TtC11FawryPaySDK18ScanViewController")
+@interface ScanViewController : ScanBaseViewController
+@property (nonatomic, weak) id <ScanStringsDataSource> _Nullable stringDataSource;
+@property (nonatomic) BOOL allowSkip;
+@property (nonatomic) BOOL hideBackButtonImage;
+@property (nonatomic, strong) UIImage * _Nullable backButtonImage;
+@property (nonatomic, strong) UIColor * _Nullable backButtonColor;
+@property (nonatomic, strong) UIFont * _Nullable backButtonFont;
+@property (nonatomic, strong) UIFont * _Nullable scanCardFont;
+@property (nonatomic, strong) UIFont * _Nullable positionCardFont;
+@property (nonatomic, strong) UIFont * _Nullable skipButtonFont;
+@property (nonatomic, strong) NSNumber * _Nullable backButtonImageToTextDelta;
++ (ScanViewController * _Nullable)createViewControllerWithDelegate:(id <ScanDelegate> _Nullable)delegate SWIFT_WARN_UNUSED_RESULT;
+- (void)cancelWithCallDelegate:(BOOL)callDelegate;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
+- (void)showCardNumber:(NSString * _Nonnull)number expiry:(NSString * _Nullable)expiry;
+- (void)onScannedCardWithNumber:(NSString * _Nonnull)number expiryYear:(NSString * _Nullable)expiryYear expiryMonth:(NSString * _Nullable)expiryMonth scannedImage:(UIImage * _Nullable)scannedImage;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -601,11 +678,30 @@ SWIFT_CLASS("_TtC11FawryPaySDK15SouhoolaManager")
 @end
 
 
+SWIFT_PROTOCOL("_TtP11FawryPaySDK22TestingImageDataSource_")
+@protocol TestingImageDataSource
+- (CGImageRef _Nullable)nextImage SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
 SWIFT_CLASS("_TtC11FawryPaySDK21ThemeStyleFawryPaySDK")
 @interface ThemeStyleFawryPaySDK : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -637,8 +733,8 @@ SWIFT_CLASS("_TtC11FawryPaySDK17ValuBillDataModel")
 @end
 
 
-SWIFT_CLASS("_TtC11FawryPaySDK37ValuCustomerVerificationRequestParams")
-@interface ValuCustomerVerificationRequestParams : NSObject
+SWIFT_CLASS("_TtC11FawryPaySDK32ValuCustomerVerificationResponse")
+@interface ValuCustomerVerificationResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -647,6 +743,26 @@ SWIFT_CLASS("_TtC11FawryPaySDK37ValuCustomerVerificationRequestParams")
 SWIFT_CLASS("_TtC11FawryPaySDK11ValuManager")
 @interface ValuManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK23ValuValidateOTPResponse")
+@interface ValuValidateOTPResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK14VoucherManager")
+@interface VoucherManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK25VoucherValidationResponse")
+@interface VoucherValidationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #endif
@@ -939,7 +1055,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVFoundation;
 @import CoreFoundation;
+@import CoreGraphics;
+@import CoreMedia;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
@@ -964,14 +1083,25 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC11FawryPaySDK7AVLInfo")
+@interface AVLInfo : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSString;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11FawryPaySDK18BaseViewController")
 @interface BaseViewController : UIViewController
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
 @property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
 - (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -987,6 +1117,12 @@ SWIFT_CLASS("_TtC11FawryPaySDK21AddCardViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK11AmanManager")
+@interface AmanManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 @class UITouch;
 @class UIEvent;
@@ -1008,12 +1144,46 @@ SWIFT_CLASS("_TtC11FawryPaySDK27BaseComponentViewController")
 @end
 
 
+SWIFT_CLASS("_TtC11FawryPaySDK8BlurView")
+@interface BlurView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 SWIFT_CLASS("_TtC11FawryPaySDK24ChargePaymentParamsModel")
 @interface ChargePaymentParamsModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK10CornerView")
+@interface CornerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIImage;
+
+SWIFT_CLASS("_TtC11FawryPaySDK10CreditCard")
+@interface CreditCard : NSObject
+@property (nonatomic, copy) NSString * _Nonnull number;
+@property (nonatomic, copy) NSString * _Nullable expiryMonth;
+@property (nonatomic, copy) NSString * _Nullable expiryYear;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic, strong) UIImage * _Nullable image;
+- (NSString * _Nullable)expiryForDisplay SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK17CreditCardManager")
+@interface CreditCardManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UIColor;
@@ -1041,10 +1211,37 @@ typedef SWIFT_ENUM(NSInteger, DisplayType, open) {
 };
 
 
+SWIFT_CLASS("_TtC11FawryPaySDK15E_WalletManager")
+@interface E_WalletManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK14FPPurchaseItem")
+@interface FPPurchaseItem : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK30FPValidateVoucherRequestParams")
+@interface FPValidateVoucherRequestParams : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC11FawryPaySDK10FawryError")
 @interface FawryError : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK20FawryPayByRefManager")
+@interface FawryPayByRefManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -1060,21 +1257,15 @@ SWIFT_CLASS("_TtC11FawryPaySDK12ForsaManager")
 @end
 
 
-SWIFT_CLASS("_TtC11FawryPaySDK15FrameworkHelper")
-@interface FrameworkHelper : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC11FawryPaySDK31GetAmanInstallmentPlansResponse")
-@interface GetAmanInstallmentPlansResponse : NSObject
+SWIFT_CLASS("_TtC11FawryPaySDK35GetSouhoolaInstallmentPlansResponse")
+@interface GetSouhoolaInstallmentPlansResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS("_TtC11FawryPaySDK35GetSouhoolaInstallmentPlansResponse")
-@interface GetSouhoolaInstallmentPlansResponse : NSObject
+SWIFT_CLASS("_TtC11FawryPaySDK31GetValuInstallmentPlansResponse")
+@interface GetValuInstallmentPlansResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1091,6 +1282,12 @@ SWIFT_CLASS("_TtC11FawryPaySDK19LaunchCustomerModel")
 @interface LaunchCustomerModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK14LoyaltyManager")
+@interface LoyaltyManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -1129,67 +1326,14 @@ SWIFT_CLASS("_TtC11FawryPaySDK19OrderingPaySDKError")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class UIButton;
-@class UILabel;
 
-SWIFT_CLASS("_TtC11FawryPaySDK28PaymentDetailsViewController")
-@interface PaymentDetailsViewController : BaseViewController
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified buttonBaseView;
-@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified backgroundView;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified headerView;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified backButton;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelHeader;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified confirmPaymentButton;
-- (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (IBAction)backButtonAction:(id _Nonnull)sender;
-- (IBAction)confirmPaymentButtonAction:(id _Nullable)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-@interface PaymentDetailsViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITextFieldDelegate>
-- (BOOL)textField:(UITextField * _Nonnull)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-
-@class UITableView;
-@class NSIndexPath;
-@class UITableViewCell;
-
-@interface PaymentDetailsViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-@end
-
-
-SWIFT_CLASS("_TtC11FawryPaySDK28PaymentReceiptViewController")
-@interface PaymentReceiptViewController : BaseViewController
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified doneButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified backBtn;
-- (void)viewDidLoad;
-- (IBAction)backButtonAction:(id _Nonnull)sender;
-- (IBAction)doneButtonAction:(id _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface PaymentReceiptViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS("_TtC11FawryPaySDK11PreviewView")
+@interface PreviewView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) Class _Nonnull layerClass;)
++ (Class _Nonnull)layerClass SWIFT_WARN_UNUSED_RESULT;
+- (void)layoutSubviews;
 @end
 
 
@@ -1229,28 +1373,77 @@ SWIFT_PROTOCOL("_TtP11FawryPaySDK12RowViewModel_")
 - (NSString * _Nonnull)cellIdentifier SWIFT_WARN_UNUSED_RESULT;
 @end
 
+@protocol TestingImageDataSource;
+@class AVCaptureOutput;
+@class AVCaptureConnection;
 
-SWIFT_CLASS("_TtC11FawryPaySDK24SavedCardsViewController")
-@interface SavedCardsViewController : BaseViewController
-@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified backgroundView;
-@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified headerView;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified labelHeader;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified backButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified addNewCardButton;
-- (void)viewDidLoad;
+SWIFT_CLASS("_TtC11FawryPaySDK22ScanBaseViewController")
+@interface ScanBaseViewController : UIViewController <AVCaptureVideoDataOutputSampleBufferDelegate>
+@property (nonatomic, weak) id <TestingImageDataSource> _Nullable testingImageDataSource;
+@property (nonatomic) double errorCorrectionDuration;
+@property (nonatomic) BOOL includeCardImage;
+@property (nonatomic) BOOL showDebugImageView;
+- (void)onScannedCardWithNumber:(NSString * _Nonnull)number expiryYear:(NSString * _Nullable)expiryYear expiryMonth:(NSString * _Nullable)expiryMonth scannedImage:(UIImage * _Nullable)scannedImage;
+- (void)showCardNumber:(NSString * _Nonnull)number expiry:(NSString * _Nullable)expiry;
++ (void)configureWithApiKey:(NSString * _Nullable)apiKey;
++ (BOOL)isCompatible SWIFT_WARN_UNUSED_RESULT;
++ (UIImage * _Nullable)cameraImage SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
 - (void)viewWillAppear:(BOOL)animated;
-- (IBAction)backButtonAction:(id _Nonnull)sender;
-- (IBAction)addNewCardButtonAction:(id _Nonnull)sender;
+- (void)viewDidLayoutSubviews;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)captureOutput:(AVCaptureOutput * _Nonnull)output didOutputSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer fromConnection:(AVCaptureConnection * _Nonnull)connection;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class ScanViewController;
 
-@interface SavedCardsViewController (SWIFT_EXTENSION(FawryPaySDK)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+SWIFT_PROTOCOL("_TtP11FawryPaySDK12ScanDelegate_")
+@protocol ScanDelegate
+- (void)userDidCancel:(ScanViewController * _Nonnull)scanViewController;
+- (void)userDidScanCard:(ScanViewController * _Nonnull)scanViewController creditCard:(CreditCard * _Nonnull)creditCard;
+@optional
+- (void)userDidScanQrCode:(ScanViewController * _Nonnull)scanViewController payload:(NSString * _Nonnull)payload;
+@required
+- (void)userDidSkip:(ScanViewController * _Nonnull)scanViewController;
+@end
+
+
+SWIFT_PROTOCOL("_TtP11FawryPaySDK21ScanStringsDataSource_")
+@protocol ScanStringsDataSource
+- (NSString * _Nonnull)scanCard SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)positionCard SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)backButton SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)skipButton SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIFont;
+@class NSNumber;
+
+SWIFT_CLASS("_TtC11FawryPaySDK18ScanViewController")
+@interface ScanViewController : ScanBaseViewController
+@property (nonatomic, weak) id <ScanStringsDataSource> _Nullable stringDataSource;
+@property (nonatomic) BOOL allowSkip;
+@property (nonatomic) BOOL hideBackButtonImage;
+@property (nonatomic, strong) UIImage * _Nullable backButtonImage;
+@property (nonatomic, strong) UIColor * _Nullable backButtonColor;
+@property (nonatomic, strong) UIFont * _Nullable backButtonFont;
+@property (nonatomic, strong) UIFont * _Nullable scanCardFont;
+@property (nonatomic, strong) UIFont * _Nullable positionCardFont;
+@property (nonatomic, strong) UIFont * _Nullable skipButtonFont;
+@property (nonatomic, strong) NSNumber * _Nullable backButtonImageToTextDelta;
++ (ScanViewController * _Nullable)createViewControllerWithDelegate:(id <ScanDelegate> _Nullable)delegate SWIFT_WARN_UNUSED_RESULT;
+- (void)cancelWithCallDelegate:(BOOL)callDelegate;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
+- (void)showCardNumber:(NSString * _Nonnull)number expiry:(NSString * _Nullable)expiry;
+- (void)onScannedCardWithNumber:(NSString * _Nonnull)number expiryYear:(NSString * _Nullable)expiryYear expiryMonth:(NSString * _Nullable)expiryMonth scannedImage:(UIImage * _Nullable)scannedImage;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -1260,11 +1453,30 @@ SWIFT_CLASS("_TtC11FawryPaySDK15SouhoolaManager")
 @end
 
 
+SWIFT_PROTOCOL("_TtP11FawryPaySDK22TestingImageDataSource_")
+@protocol TestingImageDataSource
+- (CGImageRef _Nullable)nextImage SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
 SWIFT_CLASS("_TtC11FawryPaySDK21ThemeStyleFawryPaySDK")
 @interface ThemeStyleFawryPaySDK : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1296,8 +1508,8 @@ SWIFT_CLASS("_TtC11FawryPaySDK17ValuBillDataModel")
 @end
 
 
-SWIFT_CLASS("_TtC11FawryPaySDK37ValuCustomerVerificationRequestParams")
-@interface ValuCustomerVerificationRequestParams : NSObject
+SWIFT_CLASS("_TtC11FawryPaySDK32ValuCustomerVerificationResponse")
+@interface ValuCustomerVerificationResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1306,6 +1518,26 @@ SWIFT_CLASS("_TtC11FawryPaySDK37ValuCustomerVerificationRequestParams")
 SWIFT_CLASS("_TtC11FawryPaySDK11ValuManager")
 @interface ValuManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK23ValuValidateOTPResponse")
+@interface ValuValidateOTPResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK14VoucherManager")
+@interface VoucherManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11FawryPaySDK25VoucherValidationResponse")
+@interface VoucherValidationResponse : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 #endif
