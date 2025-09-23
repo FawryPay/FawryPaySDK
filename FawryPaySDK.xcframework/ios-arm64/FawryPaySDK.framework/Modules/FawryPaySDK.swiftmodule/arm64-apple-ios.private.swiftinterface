@@ -933,8 +933,15 @@ public enum Payment_Method : Swift.String, Swift.Codable {
   case all
   case payAtFawry
   case card
-  case wallet
+  case mWallet
+  case valu
+  case installment
+  case creditCard
   case yellowCard
+  case forsa
+  case souhoola
+  case aman
+  case myFawry
   case applePay
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
