@@ -18,11 +18,11 @@
 		</data>
 		<key>AmanInstallmentPlansViewController.nib/objects-13.0+.nib</key>
 		<data>
-		bXlmYDT2UrF5H6PuKnRCAy05RMM=
+		N2t3L+/C9gyLLoo+k7yr03svCgg=
 		</data>
 		<key>AmanInstallmentPlansViewController.nib/runtime.nib</key>
 		<data>
-		nrWM2iCe786W03spGXW4TIWkxmw=
+		ewbbhHrYJrUkFJrwBELh3N6A++0=
 		</data>
 		<key>AmanMobileNumberViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		WmlGBVsHwlVehUBOwdQobAEckVg=
+		rXsd/2SI4wM4NufEDLiQEd7MYqE=
 		</data>
 		<key>AvailablePaymentMethodsTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -71,6 +71,22 @@
 		<key>BalanceView.nib</key>
 		<data>
 		A+EvR+Ohk63R9W0GGC31ijx/f9s=
+		</data>
+		<key>BankInstallmentPlansViewController.nib/objects-13.0+.nib</key>
+		<data>
+		6F7+DzbNOq0AY8/lZzVriOWC8lY=
+		</data>
+		<key>BankInstallmentPlansViewController.nib/runtime.nib</key>
+		<data>
+		fBGI3nnxuNLfkuJqF925gxlE0LA=
+		</data>
+		<key>BanksCollectionViewCell.nib/objects-12.3+.nib</key>
+		<data>
+		OIahnS2JTNUL0gbamJOfL4nJ6sc=
+		</data>
+		<key>BanksCollectionViewCell.nib/runtime.nib</key>
+		<data>
+		cklMNqv00GrEvtrwq4NKQSBhYCU=
 		</data>
 		<key>Base.lproj/AddCardDetailsView.nib/objects-13.0+.nib</key>
 		<data>
@@ -454,15 +470,15 @@
 		</data>
 		<key>EWalletPaymentsViewController.nib/objects-13.0+.nib</key>
 		<data>
-		JL0WzzTFuNPaXzgrQFXlUpwvvrM=
+		H+4VQSwiiKZc/VXfTuMr5tw/tOM=
 		</data>
 		<key>EWalletPaymentsViewController.nib/objects-14.0+.nib</key>
 		<data>
-		44XOXxqW/adsr8zge6NsqKSHBd4=
+		3n3ERmvV20KVu9eCACPU0wiJPy8=
 		</data>
 		<key>EWalletPaymentsViewController.nib/runtime.nib</key>
 		<data>
-		15T7tYHiNEDBrIOu3jcJQDW+gGU=
+		1i/YZL3Q3CgusGMTh9MZHqLEZGk=
 		</data>
 		<key>FPCardListTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -490,11 +506,11 @@
 		</data>
 		<key>FPCreditCardDetailsViewController.nib/objects-13.0+.nib</key>
 		<data>
-		fbR9K8WaCMY4hlWbAePsAWfIOnQ=
+		55VX3T9oHl2ihJbClDLCHyc7O2U=
 		</data>
 		<key>FPCreditCardDetailsViewController.nib/runtime.nib</key>
 		<data>
-		mxt1z8uZZqKzXa2S8BJyHFIhHQE=
+		T/NXP3Hs5KtPXnj/LRYuMC7+7aI=
 		</data>
 		<key>FPCvvPopUpViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -530,11 +546,11 @@
 		</data>
 		<key>FPSavedCardListViewController.nib/objects-13.0+.nib</key>
 		<data>
-		GbT4C5fKyQBaIeCHloj8w4cUJsw=
+		DkZbYRKKtzbgsN2YMMQsFebuW1E=
 		</data>
 		<key>FPSavedCardListViewController.nib/runtime.nib</key>
 		<data>
-		vMKHcoxCWTxIilyRLPP21kswvzA=
+		LR4XB2diGnAdImv+OO1NzVR8lqw=
 		</data>
 		<key>FailureTextReceiptTableViewCell.nib</key>
 		<data>
@@ -606,11 +622,11 @@
 		</data>
 		<key>ForsaInstallmentPlansViewController.nib/objects-13.0+.nib</key>
 		<data>
-		xFFFT470m4GVQ6Ua3o9BZQ31Sgw=
+		FvAy0WKoREZSNNS4H1tqkt10GCM=
 		</data>
 		<key>ForsaInstallmentPlansViewController.nib/runtime.nib</key>
 		<data>
-		m1JsCjELsmRIR23FNFdfjBazWvw=
+		PJ5ZjGkWUeAUvITswoLSR6VqPWM=
 		</data>
 		<key>ForsaOTPViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -656,6 +672,10 @@
 		<data>
 		0yM6m/1pW2sekykF29VV+MiUyUg=
 		</data>
+		<key>GenericOffersTableViewCell.nib</key>
+		<data>
+		tWpOGYbrMJm5kvaxhhhvhuVeyTg=
+		</data>
 		<key>GetCustomerStatusViewController.nib/objects-13.0+.nib</key>
 		<data>
 		odHv14bIMFEppPbjNWshpFz1iS8=
@@ -690,7 +710,7 @@
 		</data>
 		<key>Headers/FawryPaySDK-Swift.h</key>
 		<data>
-		XzS1dm7YWbnYDrGqmHdEyivV8cw=
+		gWC/hGivsEo354Fmo0YHxUvQbLg=
 		</data>
 		<key>Headers/FawryPaySDK.h</key>
 		<data>
@@ -698,7 +718,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YHT5aav/1GyELmIjZqLVZ8F1IQQ=
+		ytEzmq6I9aegjspnPhOomVbJays=
 		</data>
 		<key>InstallmentReceiptTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -734,11 +754,11 @@
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vsC03tfc3CJ0QIicdyjCNlEHMMU=
+		WdNj2CDu5EyPoGfq3PKOvTEoB/M=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MV3ZdFG2s47smzRZIoVFhzxRnFc=
+		Nx9VzPfSAV10orkg/U/p9u+n7U8=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -746,19 +766,19 @@
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MV3ZdFG2s47smzRZIoVFhzxRnFc=
+		Nx9VzPfSAV10orkg/U/p9u+n7U8=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PzSoEGJB+upv04PNX2U161mCW4o=
+		cmYPdoqSvOQPVoCqppPSXtoava0=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vsC03tfc3CJ0QIicdyjCNlEHMMU=
+		WdNj2CDu5EyPoGfq3PKOvTEoB/M=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ruh2tdfrO2ApUwNLs9YeafrXIgA=
+		+zjZmrwEdj8lBwBorCjVgCI80kE=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -766,11 +786,11 @@
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ruh2tdfrO2ApUwNLs9YeafrXIgA=
+		+zjZmrwEdj8lBwBorCjVgCI80kE=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6lP41PCw2XCo8FSYmx/luhyT60c=
+		qyfGzX8hYh0OMNwe30+tBnfaM5Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -778,11 +798,19 @@
 		</data>
 		<key>NewPaymentDetailsViewController.nib/objects-13.0+.nib</key>
 		<data>
-		QuqP/w2aB/y5/+p+SEx7lPURqlM=
+		tgfC0KrEcYTiKu/fCKJpM1hsodY=
 		</data>
 		<key>NewPaymentDetailsViewController.nib/runtime.nib</key>
 		<data>
-		xr2s2CUXByrm+CGt9XsGwRuaRPo=
+		/eIYmb/+nT56llS3zw9+csCd0uU=
+		</data>
+		<key>OffersCardDetailsTableViewCell.nib</key>
+		<data>
+		OkLVjB0dLzQT9g9PNxWHM/CJL4k=
+		</data>
+		<key>OffersCardDetailsViewController.nib</key>
+		<data>
+		H3ACmxK6cYY6VeEeia8dxVxl2sw=
 		</data>
 		<key>OneLabelCellTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -826,11 +854,11 @@
 		</data>
 		<key>PaymentMethodsCellTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		oVnEdOeh5SxOzgxIpKVDuTYO3ns=
+		BK60G3Boj8nVSnkCoQpgFITpfaI=
 		</data>
 		<key>PaymentMethodsCellTableViewCell.nib/runtime.nib</key>
 		<data>
-		krAt4C92NoLT+NJe+tfQuV44YfI=
+		5cYp6p86iBHfYThHeRccqETystA=
 		</data>
 		<key>QRCodeTableViewCell.nib</key>
 		<data>
@@ -890,11 +918,11 @@
 		</data>
 		<key>SavedCardTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		zpTUBAMh3wls5WC11pz7dnGXNY8=
+		JQElYTBPZRwz5/3JhbJNjcYAemc=
 		</data>
 		<key>SavedCardTableViewCell.nib/runtime.nib</key>
 		<data>
-		xILVZNt7Q5tYq4T7oSPZolycG/0=
+		TFwggH9+nH9qWZL269z2/3w9HyY=
 		</data>
 		<key>ScheduledTimeTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -926,11 +954,11 @@
 		</data>
 		<key>SouhoolaInstallmentPlansViewController.nib/objects-13.0+.nib</key>
 		<data>
-		4uUNwQBoYYvxIhZcPlwpO39UzYc=
+		iGjv5WFGqb0thSUKQCjrpV3e0rQ=
 		</data>
 		<key>SouhoolaInstallmentPlansViewController.nib/runtime.nib</key>
 		<data>
-		Im4yqMH8QKNvSXbiI7lRBuxt8Nk=
+		1F3y3UGGfLeBGhJPnBGP0y2QwLo=
 		</data>
 		<key>Steelworks Vintage Demo.ttf</key>
 		<data>
@@ -966,15 +994,15 @@
 		</data>
 		<key>ValuInstallmentPlansViewController.nib/objects-13.0+.nib</key>
 		<data>
-		Z9btOmYUE5WifSsx28SRxnIxp8k=
+		Gr6lWAnTX7UrHLVvtfWDwZqwoGU=
 		</data>
 		<key>ValuInstallmentPlansViewController.nib/objects-14.0+.nib</key>
 		<data>
-		M9xOMCs3VZdmAK9hrVdlX1TDdFY=
+		NhCsfivNL0mZ3Yu/dbbqPZqmISg=
 		</data>
 		<key>ValuInstallmentPlansViewController.nib/runtime.nib</key>
 		<data>
-		/5iJXj9tpYIkp544TLigd/yvWOs=
+		b3dlae4XW5VoUJfQE29xTUkJsz0=
 		</data>
 		<key>ValuOTPViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -994,11 +1022,11 @@
 		</data>
 		<key>VoucherTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		thtvWMpTE8eYwANvFvgDFBLVaJI=
+		2+sADnxj2Wj3KGbCBO+7uGq691g=
 		</data>
 		<key>VoucherTableViewCell.nib/runtime.nib</key>
 		<data>
-		FL9+7VANK7S6lPxD8UDhNvyn34A=
+		TC8yfZbdasQ7viVSCpgknh79oic=
 		</data>
 		<key>WalletPaymentOptionsTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -1137,7 +1165,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IoHnFdrKRAMAb4nYMOqEd4FT4d4=
+			OpjcfzcC4OmA6QuOcX9jltrvgZI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1276,7 +1304,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			46vVtdm2qQgWO/hKnRMbBh6syxk=
+			C6wYAcKcWjenneqy0NbMnmhaqpM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1326,14 +1354,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jHZ2rK3tmWghkmFIOlvTr5i4HSAVborkiZvfZXoFIsw=
+			da0gys0L0cSOMpS4yxsQJcIAsg5oRcuYRqBk53QVrcI=
 			</data>
 		</dict>
 		<key>AmanInstallmentPlansViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7VbnXmMPeAev36vS0zmdDiFY9lXQqRtdB9BcVtAG3mI=
+			MCIuQ+j8DMvivxqJE+d89lMWzUCX2C1I8konjhPg5dY=
 			</data>
 		</dict>
 		<key>AmanMobileNumberViewController.nib/objects-13.0+.nib</key>
@@ -1375,7 +1403,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vn42rnYmebjIcIaYK6btrZekKRwFZxz9GtACxwzLtDE=
+			d6kMs0AlAjKn4vMGTUgskqA6zs+35VTfPrfQ6DPMSLE=
 			</data>
 		</dict>
 		<key>AvailablePaymentMethodsTableViewCell.nib/objects-13.0+.nib</key>
@@ -1418,6 +1446,34 @@
 			<key>hash2</key>
 			<data>
 			ydq8RqRgBMQTrpTfn2UjdgtuTpTLtsLQ6tiBlnTYNZ0=
+			</data>
+		</dict>
+		<key>BankInstallmentPlansViewController.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sWWKCrd4LvXB7MQ6WmAk0VDNGnV2UAY16EDRVKIzzkM=
+			</data>
+		</dict>
+		<key>BankInstallmentPlansViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X//VLct5Y/ht5MHVr51oigraoXSp8+4bu6J0xkQ24aw=
+			</data>
+		</dict>
+		<key>BanksCollectionViewCell.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XQgs7qqXrzn6MNTtysSMiep1JP5yCYFB9a8ED7L+TfM=
+			</data>
+		</dict>
+		<key>BanksCollectionViewCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XTRbZvONJsuHFbzfWPZF+6MvVBXdBE1jRd+qHpdMDgs=
 			</data>
 		</dict>
 		<key>Base.lproj/AddCardDetailsView.nib/objects-13.0+.nib</key>
@@ -2089,21 +2145,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UiFAiiaFJaEcO7HujrUjlwEbrK3z/jw+zV9WpdknoRU=
+			s6pnADozqFjXtEDXAL2ZmT/YjKwo0jkQrxR+/WxT/hM=
 			</data>
 		</dict>
 		<key>EWalletPaymentsViewController.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGMz5YKj91nvsf/u+EzqzbQbMlFE53fbd6z3GpBEXNQ=
+			EoEaf0BZscTWl/bMIEVw8GJMKB7vjW+KtAYvydo6ZtQ=
 			</data>
 		</dict>
 		<key>EWalletPaymentsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u9mgbiJ0HT9myu9aOK5yVhQuBMQkOmIFpmn1RsLVcg0=
+			f5va/X+GsqtWWNX6GSkmdQE4IAx3Ub3OrJSMGKTcj40=
 			</data>
 		</dict>
 		<key>FPCardListTableViewCell.nib/objects-13.0+.nib</key>
@@ -2152,14 +2208,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FurlLSHPg0gFZAzOXEB6N5BufPfOso4JwuuW5DpElNc=
+			JH5bD87blWDEK7KbYH1nk58Ub4aeZPEP7Z9sHbp6Pno=
 			</data>
 		</dict>
 		<key>FPCreditCardDetailsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ei5mV49JpVW3+KleXWfVXxC74IdX81Rp0EZCY7xMkqY=
+			N8WbxcELeM+6hrldUL1N9hbhvGFt5N1ty54TFdXTL9Y=
 			</data>
 		</dict>
 		<key>FPCvvPopUpViewController.nib/objects-13.0+.nib</key>
@@ -2222,14 +2278,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tSrQR364T2LiUGcHv6q68iLQtTXbliKrPdPuVo61lRo=
+			U0KIqyjHTUmwaEQuQT7Vu/9YoIaStrDAVsa4VQWgdpk=
 			</data>
 		</dict>
 		<key>FPSavedCardListViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4I5xSsz1vmr+7tw+JLdFVGcCMSPWBSm0kGl7UX7PH2A=
+			j2yHDntF2s6pZuEwYKrrj34jNAgdbIri1tA695ClZYM=
 			</data>
 		</dict>
 		<key>FailureTextReceiptTableViewCell.nib</key>
@@ -2355,14 +2411,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			duYl6EsgisC3ufVOHA68luwFmlFghqdCANR7HzT44SM=
+			nCe8yAKseZUqn/+mhf4RcD12ILoUJCZdNecEQOShVk4=
 			</data>
 		</dict>
 		<key>ForsaInstallmentPlansViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f/suh7p4vmVy3wMO9kQBN8wsWuMjV2nJ0beIEpYlEug=
+			wzytggu1gaLO2oR2fUbbCqknYYLWtisOQe0phZq7tu8=
 			</data>
 		</dict>
 		<key>ForsaOTPViewController.nib/objects-13.0+.nib</key>
@@ -2442,6 +2498,13 @@
 			KmpAs3OctJpteIczOD6nZ7F20yHyxHGKcElmovRmaMw=
 			</data>
 		</dict>
+		<key>GenericOffersTableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			83qGTTSXH0qhKSpJtb4egLaGn0tV5Row/sZU7g+/rGU=
+			</data>
+		</dict>
 		<key>GetCustomerStatusViewController.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -2502,7 +2565,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9kM4bkNsneazeNsv24l6dNKixXig5mJKjdGnruAOFfA=
+			/cre2usA+L+c1Lfg9gQRZ74RnBv0Nw0i28Thv/+rU/w=
 			</data>
 		</dict>
 		<key>Headers/FawryPaySDK.h</key>
@@ -2572,14 +2635,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kTyJqBM3Z4IkHqc8lulvqhdyvkFDVE5CiHgcXuomPII=
+			3IyfyUsjUCuZ+y4sEobHlBIBSJ9GDmQpkkeVjI9jc+A=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fPzu0VwiYrOXyxpvjA5E8PCCivH852kzK8RqOdfcjgI=
+			gO+fcGHeDqbqw+DGk38YNxZfqtq/DrRvQRecaWghRXE=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -2593,28 +2656,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fPzu0VwiYrOXyxpvjA5E8PCCivH852kzK8RqOdfcjgI=
+			gO+fcGHeDqbqw+DGk38YNxZfqtq/DrRvQRecaWghRXE=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C3VhTaxq0vRkpCrXa84BOKcfcbEvUb8n/m7no1zZ9MI=
+			/fyCnchsioi65Xz0cx2TT0ff4wWvp4fAWWZetfej4lw=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kTyJqBM3Z4IkHqc8lulvqhdyvkFDVE5CiHgcXuomPII=
+			3IyfyUsjUCuZ+y4sEobHlBIBSJ9GDmQpkkeVjI9jc+A=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SOvkR06iA6s3utzsYVZOaHhsN5IXdDZgPg5ibWR7Q7Q=
+			NI0sPr8nhnRx0NwHI2WRcPBjQXsomiHWAqWzRIRKZJI=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2628,14 +2691,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SOvkR06iA6s3utzsYVZOaHhsN5IXdDZgPg5ibWR7Q7Q=
+			NI0sPr8nhnRx0NwHI2WRcPBjQXsomiHWAqWzRIRKZJI=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GX6YQJTsBZF7x/h50TE7POiSwIo3+HFoMQl00xr3Kys=
+			EcJtXAXibafdeo9XI/brWPBodnD6ciVoCrwnEuZ8NFY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2649,14 +2712,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LlqWUSzsjJ94cRmQqMfa7NR37qSAciD3bvPWPSt8lsM=
+			3QZM+MWo6YeRBUdusCAZyAxFyuuKqG+nh3de6PB3+hE=
 			</data>
 		</dict>
 		<key>NewPaymentDetailsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5EaHBjR8/ROpWYx2i37yjtq1uFLmBhGJqXpMoSHPI1Q=
+			Wql+d6p8OT8QFiT+f6PSXiWtk5hJKUc5uTBJmcQ4XWE=
+			</data>
+		</dict>
+		<key>OffersCardDetailsTableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hpkK2ek+TrlebI9Hysv+qh8tVeF2FqPBZJKJY/+QI7Y=
+			</data>
+		</dict>
+		<key>OffersCardDetailsViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PHmZG02WchXe2t223X4uLPg6i0Or7HdXje0WsrDsf+8=
 			</data>
 		</dict>
 		<key>OneLabelCellTableViewCell.nib/objects-13.0+.nib</key>
@@ -2733,14 +2810,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x2A+ZwKnRG8o5MyYiSWBZtLvTCl3HEdfb1F7pA4Kl8A=
+			MdWiS4FJH1hgEJUAWqiGMa3RJsC/7Wg08PybWSATfDU=
 			</data>
 		</dict>
 		<key>PaymentMethodsCellTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iv4m5K9VyWdcnz4z/T0nbt8yHQhQchtUTpueI/rWf1U=
+			HhLACIocxQ1mGB1egUgyk2OcKhcSPo5VAbJWLyclSxM=
 			</data>
 		</dict>
 		<key>QRCodeTableViewCell.nib</key>
@@ -2845,14 +2922,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e/fHCVKDIrdM83NSngrBP/E1DHRIkomS1TJ03/KPTb8=
+			o2Auz3JFziL/CiXfdLNv2DzD+Ufto5cTl12tUbbgcRo=
 			</data>
 		</dict>
 		<key>SavedCardTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0V8blfz6RATVD5YlFV7JbD+j3NngCGRZbnaw0kRz1qU=
+			LExyq0KiK8RjPBHUumq7u5EYOdG/AkHmLr7e+nNQMd8=
 			</data>
 		</dict>
 		<key>ScheduledTimeTableViewCell.nib/objects-13.0+.nib</key>
@@ -2908,14 +2985,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			laqeY5yUgIwJkmL7dz5UDLlvvF9Aou82Ds4BwnuWrSM=
+			Mma3EsuQ+EtA0i4rn7+9I7N8pa4JLhux2WL2ZMxmJcQ=
 			</data>
 		</dict>
 		<key>SouhoolaInstallmentPlansViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xy5YGiQBBo17ABNMQdYsYtbYgpl/TEzSKGVBtFWvUMk=
+			j5kXnTpFHo3ndHT/djTVbfW/2E/x39fYxjtp5Pr1cGk=
 			</data>
 		</dict>
 		<key>Steelworks Vintage Demo.ttf</key>
@@ -2978,21 +3055,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V8Onjq2RwdbyqpGjWo+/9XSks9KV8v4FEQD4X+0ETFo=
+			+RVuoIhbG8ksDRB7iYFekbwd65BUP8PaKDodPwOX+iM=
 			</data>
 		</dict>
 		<key>ValuInstallmentPlansViewController.nib/objects-14.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XeNxUsqkPKxaNoWtNMmukexm0ZjofliM4XOwOWvQbKU=
+			2N0djgA0J6Wn7xuTNP5RsspBz+dtS9EQcucli4N7feM=
 			</data>
 		</dict>
 		<key>ValuInstallmentPlansViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mBDR8Tdyj+Qm4ds+eEUJPkWF7U0XTQCM9AoQQMQsAeA=
+			iJmCAStjutoKZ/Ewx+Fto/Mbogxc+blsb+NjxPc9D6g=
 			</data>
 		</dict>
 		<key>ValuOTPViewController.nib/objects-13.0+.nib</key>
@@ -3027,14 +3104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZOrC5pNjfsnKoDkdc0+ru5X0cpbVODspHbxo93AWbuw=
+			DBxACI0xpWgKLHxFDHyrfCX7NAdlhQ85djANVeG7X5g=
 			</data>
 		</dict>
 		<key>VoucherTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k7vGlybntODO850tC2BHCA+2QBVeOOA04gcQNh48JAI=
+			H8Ge43sxKO4Q4YZjA3Y8fWzxgNL6haQtAz+7gRBq44I=
 			</data>
 		</dict>
 		<key>WalletPaymentOptionsTableViewCell.nib/objects-13.0+.nib</key>
@@ -3186,7 +3263,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vI8flbUmXU7u5PCWmqkCQ6GwUcIaud5AD36wt5lCutk=
+			FWAwcXJS0nrR2x1eaAuLQzvN5nOdIZPals/aQm7Cz84=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3328,7 +3405,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cSTfPyYEkvvWjVVSLg6YYL9LthHWoyIGZUWZIieiJ/g=
+			hq1XTZ/rs9Qi7bSkU3l/bsnUgrYMFSIFCu+Cw/S8XEw=
 			</data>
 			<key>optional</key>
 			<true/>

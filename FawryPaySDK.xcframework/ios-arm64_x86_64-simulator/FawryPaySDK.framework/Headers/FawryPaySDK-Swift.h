@@ -464,6 +464,13 @@ SWIFT_CLASS("_TtC11FawryPaySDK10FawryError")
 
 
 
+SWIFT_CLASS("_TtC11FawryPaySDK22FawryPayBusinessHelper")
+@interface FawryPayBusinessHelper : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC11FawryPaySDK20FawryPayByRefManager")
 @interface FawryPayByRefManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -689,6 +696,7 @@ SWIFT_CLASS("_TtC11FawryPaySDK21ThemeStyleFawryPaySDK")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
@@ -1239,6 +1247,13 @@ SWIFT_CLASS("_TtC11FawryPaySDK10FawryError")
 
 
 
+SWIFT_CLASS("_TtC11FawryPaySDK22FawryPayBusinessHelper")
+@interface FawryPayBusinessHelper : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC11FawryPaySDK20FawryPayByRefManager")
 @interface FawryPayByRefManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -1464,6 +1479,7 @@ SWIFT_CLASS("_TtC11FawryPaySDK21ThemeStyleFawryPaySDK")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
