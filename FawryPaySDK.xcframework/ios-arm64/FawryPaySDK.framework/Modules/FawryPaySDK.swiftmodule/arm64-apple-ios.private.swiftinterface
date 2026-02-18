@@ -993,7 +993,11 @@ public enum ErrorMessages : Swift.String {
   public var errorStatusCode: Swift.String?
   public var usedBTC: Swift.Int?
   public var refNumber: Swift.String?
-  public init(errorCode: Swift.String?, message: Swift.String?, networkError: FawryPaySDK.NetworkError?, errorStatusCode: Swift.String?, usedBTC: Swift.Int? = .none, refNumber: Swift.String? = .none)
+  public var errorId: Swift.String?
+  public var error: Swift.String?
+  public var code: Swift.String?
+  public var originalErrorCode: Swift.String?
+  public init(errorCode: Swift.String?, message: Swift.String?, networkError: FawryPaySDK.NetworkError?, errorStatusCode: Swift.String?, usedBTC: Swift.Int? = .none, refNumber: Swift.String? = .none, errorId: Swift.String? = nil, error: Swift.String? = nil, code: Swift.String? = nil, originalErrorCode: Swift.String? = nil)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
@@ -1047,6 +1051,7 @@ public enum PaymentMethod : Swift.String, Swift.Codable {
   case aman
   case myFawry
   case applePay
+  case instapay
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -1662,6 +1667,11 @@ public struct GetForsaInstallmentPlansResponse : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
+public class CorrelationConfig : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
 public protocol CustomLocalizedErrorProtocol : Foundation.LocalizedError {
   var title: Swift.String? { get }
   var code: Swift.Int { get }
@@ -1738,7 +1748,7 @@ extension UIKit.UIColor {
   }
 }
 public class FawryLaunchModel : Swift.Codable {
-  public init(customer: FawryPaySDK.LaunchCustomerModel?, merchant: FawryPaySDK.LaunchMerchantModel?, chargeItems: [FawryPaySDK.ChargeItemsParamsModel]?, paymentSignture: Swift.String? = nil, tokenizationSignature: Swift.String? = nil, allowVoucher: Swift.Bool = false, beneficiaryName: Swift.String? = nil, beneficiaryWalletNumber: Swift.String? = nil, avlFees: Swift.Double? = nil, paymentWithCardToken: Swift.Bool = false, skipReceipt: Swift.Bool = true, skipCustomerInput: Swift.Bool = false, paymentMethod: FawryPaySDK.Payment_Method = .all, orderRefNumber: Swift.String? = nil, paymentChargeResponse: FawryPaySDK.PaymentChargeResponse? = nil, externalPaymentMethods: [FawryPaySDK.PaymentMethods]? = nil, avlInfo: FawryPaySDK.AVLInfo? = nil, checkoutModel: FawryPaySDK.LaunchCheckoutModel? = nil, applePayModel: FawryPaySDK.LaunchApplePayModel? = nil, fawryBusinessModel: FawryPaySDK.LaunchFawryBusinessModel? = nil, enableToknization: Swift.Bool? = false)
+  public init(customer: FawryPaySDK.LaunchCustomerModel?, merchant: FawryPaySDK.LaunchMerchantModel?, chargeItems: [FawryPaySDK.ChargeItemsParamsModel]?, paymentSignture: Swift.String? = nil, tokenizationSignature: Swift.String? = nil, allowVoucher: Swift.Bool = false, beneficiaryName: Swift.String? = nil, beneficiaryWalletNumber: Swift.String? = nil, avlFees: Swift.Double? = nil, paymentWithCardToken: Swift.Bool = false, skipReceipt: Swift.Bool = true, skipCustomerInput: Swift.Bool = false, paymentMethod: FawryPaySDK.Payment_Method = .all, orderRefNumber: Swift.String? = nil, paymentChargeResponse: FawryPaySDK.PaymentChargeResponse? = nil, externalPaymentMethods: [FawryPaySDK.PaymentMethods]? = nil, avlInfo: FawryPaySDK.AVLInfo? = nil, checkoutModel: FawryPaySDK.LaunchCheckoutModel? = nil, applePayModel: FawryPaySDK.LaunchApplePayModel? = nil, fawryBusinessModel: FawryPaySDK.LaunchFawryBusinessModel? = nil, enableToknization: Swift.Bool? = false, apiPath: Swift.String? = nil)
   required public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -1809,8 +1819,11 @@ public class PaymentChargeResponse : Swift.Codable {
   public var cardTokenStatusDescription: Swift.String?
   public var cardToken: Swift.String?
   public var cardTokenResponse: FawryPaySDK.CardTokenResponse?
+  public var correlationConfig: FawryPaySDK.CorrelationConfig?
+  public var customerName: Swift.String?
+  public var customerEmail: Swift.String?
   public init()
-  public init(merchantRefNumber: Swift.String?, statusDescription: Swift.String?, customerMail: Swift.String?, type: Swift.String?, referenceNumber: Swift.String?, customerProfileId: Swift.String?, expirationTime: Swift.Double?, paymentMethod: Swift.String?, customerMobile: Swift.String?, signature: Swift.String?, statusCode: Swift.Int?, fawryFees: Swift.Double?, paymentAmount: Swift.Double?, orderAmount: Swift.Double?, walletQr: Swift.String?, shippingFees: Swift.Double?, nextAction: FawryPaySDK.NextActionModel?, usedBTC: Swift.Int?, orderStatus: Swift.String?, interestAmount: Swift.Double?, upFrontFees: Swift.Double?, valUBillData: FawryPaySDK.ValuBillDataModel? = nil, loanNumber: Swift.String?, downPayment: Swift.Double?, totalFinancedAmount: Swift.Double?, adminFees: Swift.String?, interestRate: Swift.Double?, migsTransactionNumber: Swift.Int?, amount: Swift.Double?, customerProperties: FawryPaySDK.CustomerProperties?, paymentTime: Swift.Int?, taxes: Swift.Double?, paymentMethodName: Swift.String?, promoTotalDiscount: Swift.Double? = nil, monetaryValue: Swift.Double? = nil, orderApiKey: Swift.String? = nil, basketPayment: Swift.Bool? = nil, requestUID: Swift.String? = nil, cardNumber: Swift.String? = nil, cardExpirationMonth: Swift.String? = nil, cardExpirationYear: Swift.String? = nil, cardHolderName: Swift.String? = nil, cardTokenStatusCode: Swift.Int? = nil, cardTokenStatusDescription: Swift.String? = nil, cardToken: Swift.String? = nil, cardTokenResponse: FawryPaySDK.CardTokenResponse? = nil)
+  public init(merchantRefNumber: Swift.String?, statusDescription: Swift.String?, customerMail: Swift.String?, type: Swift.String?, referenceNumber: Swift.String?, customerProfileId: Swift.String?, expirationTime: Swift.Double?, paymentMethod: Swift.String?, customerMobile: Swift.String?, signature: Swift.String?, statusCode: Swift.Int?, fawryFees: Swift.Double?, paymentAmount: Swift.Double?, orderAmount: Swift.Double?, walletQr: Swift.String?, shippingFees: Swift.Double?, nextAction: FawryPaySDK.NextActionModel?, usedBTC: Swift.Int?, orderStatus: Swift.String?, interestAmount: Swift.Double?, upFrontFees: Swift.Double?, valUBillData: FawryPaySDK.ValuBillDataModel? = nil, loanNumber: Swift.String?, downPayment: Swift.Double?, totalFinancedAmount: Swift.Double?, adminFees: Swift.String?, interestRate: Swift.Double?, migsTransactionNumber: Swift.Int?, amount: Swift.Double?, customerProperties: FawryPaySDK.CustomerProperties?, paymentTime: Swift.Int?, taxes: Swift.Double?, paymentMethodName: Swift.String?, promoTotalDiscount: Swift.Double? = nil, monetaryValue: Swift.Double? = nil, orderApiKey: Swift.String? = nil, basketPayment: Swift.Bool? = nil, requestUID: Swift.String? = nil, cardNumber: Swift.String? = nil, cardExpirationMonth: Swift.String? = nil, cardExpirationYear: Swift.String? = nil, cardHolderName: Swift.String? = nil, cardTokenStatusCode: Swift.Int? = nil, cardTokenStatusDescription: Swift.String? = nil, cardToken: Swift.String? = nil, cardTokenResponse: FawryPaySDK.CardTokenResponse? = nil, correlationConfig: FawryPaySDK.CorrelationConfig? = nil, customerName: Swift.String? = nil, customerEmail: Swift.String? = nil)
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
