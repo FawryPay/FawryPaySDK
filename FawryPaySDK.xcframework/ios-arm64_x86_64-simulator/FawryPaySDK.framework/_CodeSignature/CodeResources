@@ -778,11 +778,11 @@
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ajHc6KjFUoK0gJAjW6B6GI1L8uI=
+		mz30Om3JiYy9yoSm2HIAJfBXYHY=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mrly1wWRVFHqpWtI9NOV/JyLkmI=
+		jF5qnmbYD+YKMOdHnABFK9uKGeU=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -790,19 +790,19 @@
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mrly1wWRVFHqpWtI9NOV/JyLkmI=
+		jF5qnmbYD+YKMOdHnABFK9uKGeU=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xOlE2pXm/V5SgOiKCJDypCKAgKI=
+		49o7aR3/rL+qzPuQR7JyETFnmHQ=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ajHc6KjFUoK0gJAjW6B6GI1L8uI=
+		mz30Om3JiYy9yoSm2HIAJfBXYHY=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Qbh0sa7GR22tcpdf7LjGi0SNKVE=
+		G7PxLOUm07Yal45LTyZdgWC4uZk=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -810,11 +810,11 @@
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Qbh0sa7GR22tcpdf7LjGi0SNKVE=
+		G7PxLOUm07Yal45LTyZdgWC4uZk=
 		</data>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OTFa4txq/WhRjHbgF+Tr9T1FpmE=
+		Y4x+/w+SBJgI8gZAl9+uHlksaRU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1328,7 +1328,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4NV8OCZZUa/6upQ2jkqu8eAX390=
+			19c1E5sMvlGkKqly5wrNM7fhVHg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2701,14 +2701,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VdDg7VTtZfeI+sFOlBm6pjnY2pPP3COWSQv6QuR1ILw=
+			I4o/DsvVA3CK8+7nwDdRODmGC0r7eS2XsQt9hvn+MuA=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1YITwqlIA/meeBKRXsxdF1ZUgZbXtPxtIY5dz6l+BZI=
+			PSTwdhvd5aPfiMCBHecyB2dzlFnX9Gt15YC/U1jwETQ=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -2722,28 +2722,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1YITwqlIA/meeBKRXsxdF1ZUgZbXtPxtIY5dz6l+BZI=
+			PSTwdhvd5aPfiMCBHecyB2dzlFnX9Gt15YC/U1jwETQ=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mml9Qh2UBcAkyK7XEGHBse6HnNNZJtilSTDTlsfqMH0=
+			HJLT9ONwVJAUEx6kAjC/sdyg2meosDAZoGIYDwrN0B4=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VdDg7VTtZfeI+sFOlBm6pjnY2pPP3COWSQv6QuR1ILw=
+			I4o/DsvVA3CK8+7nwDdRODmGC0r7eS2XsQt9hvn+MuA=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YHtyYKr+faIBBxMn6Ss68lxV43djBnpdoiA6oOXdLdE=
+			R0LaJUWp6PC9Sr4rWi3oyga1NbaBi0PcdMrraTYc2WA=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -2757,14 +2757,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YHtyYKr+faIBBxMn6Ss68lxV43djBnpdoiA6oOXdLdE=
+			R0LaJUWp6PC9Sr4rWi3oyga1NbaBi0PcdMrraTYc2WA=
 			</data>
 		</dict>
 		<key>Modules/FawryPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EzRMpzRQtKKassYX6hDXS7eGhUJfhzfofpcQxXL3MxU=
+			Ln44CvBqHQdSmeGHwLmEBpRc2o924aGRPYUF0ykMTmI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -3471,7 +3471,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vNPXHrLqFjyxd4eP51XKKxpzscFpp6fmJ6TKSSqTwDQ=
+			NLkIErfGJNkPxpfaUdTHDWKuc7yQdpZK6dpF6yydrss=
 			</data>
 			<key>optional</key>
 			<true/>
