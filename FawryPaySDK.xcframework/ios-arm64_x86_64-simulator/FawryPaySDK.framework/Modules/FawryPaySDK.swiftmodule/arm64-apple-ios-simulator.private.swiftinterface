@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FawryPaySDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios12.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FawryPaySDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import AVFoundation
 import AVKit
 import Accelerate
@@ -221,7 +221,7 @@ public struct Api {
   public struct ApiError : Swift.Error {
   }
   public static var lastScanStatsSuccess: Foundation.Date?
-  public typealias ApiCompletion = ((_ response: [Swift.String : Any]?, _ error: FawryPaySDK.Api.ApiError?) -> Swift.Void)
+  public typealias ApiCompletion = (_ response: [Swift.String : Any]?, _ error: FawryPaySDK.Api.ApiError?) -> Swift.Void
   public static func apiCallWithDeviceInfo(endpoint: Swift.String, parameters: [Swift.String : Any], completion: @escaping FawryPaySDK.Api.ApiCompletion)
 }
 public class LaunchApplePayModel : Swift.Codable {
@@ -374,8 +374,8 @@ public enum NetworkError : Swift.Error, Swift.CustomStringConvertible, Swift.Cod
     get
   }
   public static func == (a: FawryPaySDK.NetworkError, b: FawryPaySDK.NetworkError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -1578,8 +1578,8 @@ public enum AVLAmountDataType : Swift.Codable {
   case double
   case integer
   public static func == (a: FawryPaySDK.AVLAmountDataType, b: FawryPaySDK.AVLAmountDataType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
