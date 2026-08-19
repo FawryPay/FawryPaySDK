@@ -985,7 +985,6 @@ public enum Payment_Method : Swift.String, Swift.Codable {
   case myFawry
   case applePay
   case loyalty
-  case instaPay
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
