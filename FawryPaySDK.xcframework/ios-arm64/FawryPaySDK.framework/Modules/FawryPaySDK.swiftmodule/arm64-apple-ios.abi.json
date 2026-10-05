@@ -95927,7 +95927,6 @@
           "ObjC",
           "SynthesizedProtocol",
           "NonSendable",
-          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -96664,7 +96663,6 @@
           "ObjC",
           "SynthesizedProtocol",
           "NonSendable",
-          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -97674,10 +97672,24 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "CKRecordValueProtocol",
+            "printedName": "CKRecordValueProtocol",
+            "usr": "s:8CloudKit21CKRecordValueProtocolP",
+            "mangledName": "$s8CloudKit21CKRecordValueProtocolP"
+          },
+          {
+            "kind": "Conformance",
             "name": "MLTensorRangeExpression",
             "printedName": "MLTensorRangeExpression",
             "usr": "s:6CoreML23MLTensorRangeExpressionP",
             "mangledName": "$s6CoreML23MLTensorRangeExpressionP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
           },
           {
             "kind": "Conformance",
@@ -97757,6 +97769,20 @@
             "printedName": "Comparable",
             "usr": "s:SL",
             "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConvertibleFromBytes",
+            "printedName": "ConvertibleFromBytes",
+            "usr": "s:s20ConvertibleFromBytesP",
+            "mangledName": "$ss20ConvertibleFromBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConvertibleToBytes",
+            "printedName": "ConvertibleToBytes",
+            "usr": "s:s18ConvertibleToBytesP",
+            "mangledName": "$ss18ConvertibleToBytesP"
           },
           {
             "kind": "Conformance",
@@ -98358,6 +98384,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "CKRecordValueProtocol",
+            "printedName": "CKRecordValueProtocol",
+            "usr": "s:8CloudKit21CKRecordValueProtocolP",
+            "mangledName": "$s8CloudKit21CKRecordValueProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -98559,6 +98599,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "CKRecordValueProtocol",
+            "printedName": "CKRecordValueProtocol",
+            "usr": "s:8CloudKit21CKRecordValueProtocolP",
+            "mangledName": "$s8CloudKit21CKRecordValueProtocolP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Transferable",
             "printedName": "Transferable",
             "children": [
@@ -98585,6 +98632,13 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
           },
           {
             "kind": "Conformance",
@@ -99176,6 +99230,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "CKRecordValueProtocol",
+            "printedName": "CKRecordValueProtocol",
+            "usr": "s:8CloudKit21CKRecordValueProtocolP",
+            "mangledName": "$s8CloudKit21CKRecordValueProtocolP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Transferable",
             "printedName": "Transferable",
             "children": [
@@ -99202,6 +99263,13 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
           },
           {
             "kind": "Conformance",
@@ -99902,8 +99970,7 @@
           "SynthesizedProtocol",
           "SynthesizedProtocol",
           "SynthesizedProtocol",
-          "SynthesizedProtocol",
-          "Sendable"
+          "SynthesizedProtocol"
         ],
         "isFromExtension": true,
         "isExternal": true,
